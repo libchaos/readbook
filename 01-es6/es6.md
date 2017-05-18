@@ -32,19 +32,83 @@
 
 ## 5. map and set
 - map 的key可以是任意类型
-- set 不能给集合添加元素
+- set 
+```javascript
+"use strict";
+
+let obj1 = {key: "val1"};
+let obj2 = {key: "val2"};
+const set = new WeakSet([obj1, obj2]);
+
+console.log(set.has(obj1)); // true
+obj1 = undefined; // now obj1 will be removed from the set
+console.log(set.has(obj1)); // false
+```
 
 ## 6. weakmap and weakset
 - 设计缓存
 - weakmap 是可以设置**弱引用** 方便下次回收
+```javascript
+"use strict";
 
+let obj = {};
+const map = new WeakMap();
+map.set(obj, {key: "some_value"});
+console.log(map.get(obj)); // {key: "some_value"}
+obj = undefined; // now obj and the associated data in the map will be cleaned up in the next gc cycle
+console.log(map.get(obj));
+
+let obj2 = {};
+const map2 = new WeakMap();
+map2.set(obj2, {1: 2});
+
+
+"use strict";
+
+let obj1 = {key: "val1"};
+let obj2 = {key: "val2"};
+const set = new WeakSet([obj1, obj2]);
+
+console.log(set.has(obj1)); // true
+obj1 = undefined; // now obj1 will be removed from the set
+console.log(set.has(obj1)); // false
+```
 
 
 ## 7. 模板
+```javascript
+"use strict";
 
-- 
+const name = "Leonardo";
+const interests = ["arts", "architecture", "science", "music", "mathematics"];
+const birth = { year : 1452, place : 'Florence' };
+const text = `${name} was an Italian polymath interested in many topics such
+as ${interests.join(', ')}.
+He was born in ${birth.year} in ${birth.place}.`;
+console.log(text);
+```
 
 
 ## 8. 模式匹配
 
+
+```javascript
+// new
+function bar(a = 5) {
+}
+
+function sum (a = 5, ...args) {
+  var l = args.length
+  var i = 0
+  for (; i < l; ++i) {
+    a += args[i]
+  }
+  return a
+}
+
+function apply (...args) {
+  function fn () {}
+  fn.apply(null, args)
+}
+```
 
