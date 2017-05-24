@@ -55,3 +55,8 @@ module.exports = function (callbackBasedApi) {
 }
 ```
 
+- Promise.all
+- Promise.race
+
+
+
