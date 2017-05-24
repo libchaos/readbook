@@ -124,6 +124,7 @@ asyncFoo( err => {
 
 # 顺序回调
 
+#async 包的使用
 
 
 

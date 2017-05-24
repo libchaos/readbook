@@ -1,11 +1,11 @@
-class TaskQueue {
+module.exports = class TaskQueue {
   constructor(concurrency) {
     this.concurrency = concurrency
     this.queue = []
     this.runnig = 0
   }
 
-  push(task) {
+  pushTask(task) {
     this.queue.push(task)
   }
 
@@ -23,16 +23,3 @@ class TaskQueue {
 
 
 
-const queue1 = new TaskQueue(2)
-
-queue1.push((done) => {
-  console.log('this is the first')
-  done()
-})
-queue1.push((done) => {
-  console.log('this is the second')
-  done()
-})
-
-queue1.next()
-queue1.next()
