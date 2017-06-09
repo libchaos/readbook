@@ -90,6 +90,25 @@ console.log(2 in evenNumbers); // true
 console.log(5 in evenNumbers); // false
 console.log(evenNumbers[7]); // 14
 ```
+### a easy way to implement proxy
+##### 我们简单来说下method代理，其他同理 这里我们用obj.foo来替代obj.request.foo
 
+```javacript
+function method(proto, target, name) {
+    proto[name] = function() {
+        return proto[target][name].apply(proto[target], arguments)
+    }
+}
+var obj = {};
+obj.request = {
+    foo: function(bar) {
+       console.log(bar)
+       console.log(this)
+       return bar;
+    }
+}
+method(obj, 'request', 'foo')
+obj.foo('123')
+```
 
 
