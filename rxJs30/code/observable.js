@@ -8,3 +8,4 @@ const observable = Rx.Observable.create(function (observer) {
 observable.subscribe(function(value) {
   print(value)
 })
+// print(Rx.Observable.of(1, 2, 3))

@@ -10,6 +10,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "rxjs": "^6.0.0-alpha.0"
+    "rxjs": "^6.0.0-alpha.0",
+    "tslib": "^1.7.1"
   }
 }
