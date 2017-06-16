@@ -30,6 +30,82 @@ IOC中最基本的技术就是“反射(Reflection)”编程
 
 ![](http://7xojpa.com1.z0.glb.clouddn.com/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/3a11f16ef9b369572abdb4d7cb4e875c.png)
 
+# adonis use Ioc 
+
+- 绑定依赖项到IOC容器，然后使用
+
+```javascript
+const Ioc = require('adonis-fold')
+const bugsnag = require('bugsnag')
+Ioc.bind('Adonis/Src/Bugsnag', function(app) {
+  const Config = app.use('Adonis/Src/Config')
+  const bugSnagConfig = Config.get('services.bugsnag')
+  bugsnag.register(bugSnagConfig.apiKey, bugSnagConfig.options)
+  return bugsnag
+})
+
+const Bugsnag = use('Adonis/Src/Bugsnag')
+Bugsnag.notify(new Error('Someting went wrong'))
+```
+
+  ### use
+
+​	使用命名空间或别名获取绑定
+
+```javascript
+const Redis = use('Redis')
+```
+
+
+
+### make
+
+通过自动注入构造函数依赖关系返回类的实例
+
+```javascript
+class Book {
+  static get inject() {
+    return ['App/Model/Book', 'Adonis/Adonis/Mail']
+  }
+  constructor(BookModel, Mail) {
+    this.BookModel = BookModel
+    this.Mail = Mail
+  }
+}
+const bookInstance = make(Book)
+```
+
+
+
+### alias
+
+```javascript
+const Ioc = require('adonis-fold').Ioc
+Ioc.alias('UserModel', 'App/Model/User')
+```
+
+
+
+## ServiceProvider
+
+通过友好的接口来注册绑定到一个IOC容器
+
+```javascript
+const ServiceProvider = require('adonis-fold').ServiceProvider
+class BugSnagProvider extends ServiceProvider {
+  * register() {
+	this.app.bind('Adonis/Addons/BugSnag', (app) => {
+      const BugSnag = require('./BugSnag')
+      const Config = app.use('Adonis/Src/Config')
+      return new BugSnag(Config)
+	})
+  }
+  * boot() {
+    //所有绑定注册完毕，可以做点其他的
+  }
+}
+```
+
 
 
 
