@@ -107,7 +107,42 @@ class BugSnagProvider extends ServiceProvider {
 ```
 
 
+## events
+```javascript
+const Ioc = require('adonis-fold').Ioc
 
+Ioc.on('bind:provider', (namespace, isSingleton) => {
+  // 绑定注册完毕
+})
+
+Ioc.on('provider:resolved', (namespace, returnValue) => {
+  // 绑定解析完毕
+})
+
+Ioc.on('module:resolved', (namespace, fromPath, returnValue) => {
+  // 自动加载模块解析完毕
+})
+
+Ioc.on('extend:provider', (key, namespace) => {
+  // 加载提供者
+})
+
+Ioc.on('bind:autoload', (namespace, directoryPath) => {
+  // 自动加载的命名空间和文件路径定义完成
+})
+
+Ioc.on('bind:alias', (alias, namespace) => {
+  // 别名注册完成
+})
+
+Ioc.on('providers:registered', () => {
+  // 所有提供者注册（register）完成
+})
+
+Ioc.on('providers:booted', () => {
+  // 所有提供者引导（boot）完成
+})
+```
 
 
 
