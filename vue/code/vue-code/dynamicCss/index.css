@@ -1,0 +1,43 @@
+html, body {
+  padding: 0;
+  margin: 0;
+  height: 100%;
+  width: 100%;
+  /*border: 20px solid black;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;*/
+}
+
+/*#app {
+  width: 30%;
+  height: 30%;
+  border: 1px solid red;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: stretch;
+}*/
+
+.demo {
+  height: 100px;
+  width: 100px;
+  background: gray;
+  display: inline-block;
+  margin: 10px;
+}
+
+.red {
+  background-color: red;
+}
+
+.green {
+  background-color: green;
+}
+
+.blue {
+  background-color: blue;
+}
+
+
