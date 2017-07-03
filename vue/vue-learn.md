@@ -21,6 +21,21 @@ new Vue({}) // view Model 传递数据，构建模板（View），管理Model(Mo
 - data: ```:class="{red: attachRed, blue: !attachRed}"```
 - computed(计算属性)  ```computed: {divClasses(){return {}}}```
 - 数组扩展 ```"[color: {red: attachRed}]"```
+- 修改 style 属性 ```:style={bGC: red}, :style=[], :style=Vars```
+
+
+
+# vue 指令
+
+- v-for
+- v-show
+- v-model
+- v-show
+- v-if
+- v-on
+- v-bind
+
+
 
 
 

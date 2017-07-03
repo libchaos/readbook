@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link rel="stylesheet" href="../node_modules/wingcss/dist/wing.css">
+  <link rel="stylesheet" href="./index.css"> 
+</head>
+<body>
+  <div id="app">
+    <p v-if="show">You can see me now!</p>
+    <p v-else>Now you see me!</p>
+    <p>Do you also see me!</p>
+    <div class="">1</div>
+    <template v-if="show">
+      <h1>Heading</h1>
+      <p v-show="show"> Inside a template</p>
+    </template>
+    <p v-show="show"> v-show: {diplay: None} or not</p>
+    <button @click="show=!show">Switch</button>
+
+    <h2>Rendering list</h2>
+    <ul>
+      <li v-for="(item,i) in fruits">{{ item }}  ({{i}})</li>
+      <button @click="fruits.push('🧀')">
+        Add new
+      </button>
+      <li v-for="i in 10">{{i}}</li>
+      <li v-for="(value, key, index) in persons">{{value.name}}----{{key}}----{{index}}</li>
+    </ul>
+  </div>
+  <script src="../node_modules/vue/dist/vue.js"></script>
+  <script>
+    const app = new Vue({
+      el: '#app',
+      data: {
+        show: false,
+        fruits: ['🍎', '🍌', '🍊'],
+        persons: [
+          {name: 'lili', gender: 'male'},
+          {name: 'hanmeimei', gender: 'female'}
+        ]
+      },
+      computed: {
+  
+      }
+    })
+  </script>
+</body>
+</html>
