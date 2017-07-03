@@ -11,7 +11,7 @@ new Vue({
       this.gameIsRunning = true
       this.monsterHealth = 100
       this.playerHealth = 100
-      this.turns = []
+      this.turwns = []
     },
 
     attack() {
