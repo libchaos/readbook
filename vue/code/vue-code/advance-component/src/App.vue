@@ -3,8 +3,8 @@
         <div class="row">
             <div class="col-xs-12">
                 <appQuote>
-                    <h2>The Quote</h2>
-                    <p>a wonderful quote</p>
+                    <h2 slot="title">{{ theTitle }}</h2>
+                    <p slot="content">a wonderful quote</p>
                 </appQuote>
             </div>
         </div>  
@@ -14,9 +14,14 @@
 <script>
     import Quote from './components/Quote.vue'
     export default {
-       components: {
-           appQuote: Quote,
-       } 
+        data() {
+            return {
+                theTitle: 'The Quete data',
+            }
+        },
+        components: {
+            appQuote: Quote,
+        }
     }
 </script>
 

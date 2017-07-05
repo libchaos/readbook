@@ -1,6 +1,13 @@
 <template>
   <div>
-    <slot></slot>
+    <div class="title">
+      <slot name="title"></slot>
+      <span style="color: #ccc"><slot name="subtitle">The Subtitle</slot></span>
+    </div>
+    <hr>  
+    <div>
+      <slot name="content"></slot>
+    </div>
   </div>
 </template>
 
@@ -20,5 +27,8 @@ export default {
   }
   h2 {
     color: rebeccapurple;
+  }
+  .title {
+    font-style: italic;
   }
 </style>
