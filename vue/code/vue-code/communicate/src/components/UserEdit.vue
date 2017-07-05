@@ -2,7 +2,7 @@
     <div class="component">
         <h3>You may edit the User here</h3>
         <p>Edit me!</p>
-        <p>Change {{userAge}}</p>
+        <p>Change {{ userAge }}</p>
         <button @click="editAge">Change age</button>
         <button @click="changeAge">Event Bus Change</button>
     </div>
@@ -19,7 +19,8 @@
             },
             changeAge() {
                 this.userAge = 29
-                eventBus.$emit('ageBusChange', this.userAge)
+                // eventBus.$emit('ageBusChange', this.userAge)
+                eventBus.changeAge(this.userAge)
             }
         }
     }
