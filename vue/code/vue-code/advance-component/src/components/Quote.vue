@@ -1,6 +1,6 @@
 <template>
   <div>
-    <p>{{ quote }}</p>
+    <slot></slot>
   </div>
 </template>
 
