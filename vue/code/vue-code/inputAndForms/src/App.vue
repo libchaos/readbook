@@ -78,13 +78,19 @@
       <hr>
       <div class="row">
         <div class="col-xs-12 col-sm-8 col-sm-offset-2 col-md-6 col-md-offset-3">
-          <button class="btn btn-primary">Submit!
+          <app-switch v-model="dataSwitch"></app-switch>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-xs-12 col-sm-8 col-sm-offset-2 col-md-6 col-md-offset-3">
+          <button class="btn btn-primary"
+            @click.prevent="submitted">Submit!
                     </button>
         </div>
       </div>
     </form>
     <hr>
-    <div class="row">
+    <div class="row" v-if="isSubmitted">
       <div class="col-xs-12 col-sm-8 col-sm-offset-2 col-md-6 col-md-offset-3">
         <div class="panel panel-default">
           <div class="panel-heading">
@@ -101,7 +107,7 @@
             </ul>
             <p>Gender: {{gender}}</p>
             <p>Priority: {{selectedPriority}}</p>
-            <p>Switched:</p>
+            <p>Switched: {{dataSwitch}}</p>
           </div>
         </div>
       </div>
@@ -110,6 +116,7 @@
 </template>
 
 <script>
+  import Switch from './Switch.vue'
   export default {
     data() {
       return {
@@ -123,8 +130,18 @@
         gender: 'Male',
         priorities: ['High', 'Medium', 'Low'],
         selectedPriority: 'High',
+        dataSwitch: true,
+        isSubmitted: false,
       }
-    }
+    },
+    methods: {
+      submitted() {
+        this.isSubmitted = true
+      }
+    },
+    components: {
+      appSwitch: Switch,
+    },
   }
 </script>
 
