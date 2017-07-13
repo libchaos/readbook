@@ -32,6 +32,9 @@
     },
     components: {
       appList: List,
+    },
+    created() {
+      console.log('inside app created');
     }
   }
 </script>

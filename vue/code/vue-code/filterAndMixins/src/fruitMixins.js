@@ -12,4 +12,7 @@ export const fruitMixin = {
       })
     }
   },
+  created() {
+    console.log('created');
+  }
 }
