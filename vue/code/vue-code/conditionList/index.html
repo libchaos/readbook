@@ -28,7 +28,8 @@
         Add new
       </button>
       <li v-for="i in 10">{{i}}</li>
-      <li v-for="(value, key, index) in persons">{{value.name}}----{{key}}----{{index}}</li>
+      <li v-for="(value, key) in persons" :person="person">{{value.name}}----{{key}}</li>
+      <li>{{person}}</li>
     </ul>
   </div>
   <script src="../node_modules/vue/dist/vue.js"></script>
@@ -41,7 +42,8 @@
         persons: [
           {name: 'lili', gender: 'male'},
           {name: 'hanmeimei', gender: 'female'}
-        ]
+        ],
+        perosn: 'xxx'
       },
       computed: {
   

@@ -12,8 +12,13 @@
     </div>
   </div>
 </template>
-
 <script>
+Vue.use({
+  install(vue){
+    vue.prototype.$tools = {}
+    vue.tools = {}
+  }
+})
   import QuoteGrid from './components/QuoteGrid.vue'
   import NewQuote from './components/NewQuote.vue'
   import Header from './components/Header.vue'
