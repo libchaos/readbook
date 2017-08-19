@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+</head>
+<body>
+  <script src="/socket.io/socket.io.js"></script>
+  <script>
+    const socket = io('http://loachost:5000')
+    socket.on('greeting-from-server', (message) => {
+      document.body.appendChild(
+        document.createTextNode(message.greeting)
+      )
+      socket.emit('greeting-from-client', {
+        greeting: 'hello server'
+      })
+    })
+  </script>  
+</body>
+</html>
