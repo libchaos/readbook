@@ -1,0 +1,19 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+combination	../combinations.py	/^def combination(n, lst, combos=[]):$/;"	kind:function	line:1
+combinations.py	../combinations.py	1;"	kind:file	line:1
+et	../min_id.py	/^et = time.time()$/;"	kind:variable	line:28
+id	../min_id.py	/^id = minId(lst)$/;"	kind:variable	line:27
+lst	../min_id.py	/^lst = [randint(0, 100) for i in range(10000)]$/;"	kind:variable	line:26
+minId	../min_id.py	/^def minId(lst):$/;"	kind:function	line:23
+minId	../min_id.py	/^def minId(lst):$/;"	kind:function	line:7
+minId2	../min_id.py	/^def minId2(lst):$/;"	kind:function	line:14
+min_id.py	../min_id.py	1;"	kind:file	line:1
+randint	../min_id.py	/^from random import randint$/;"	kind:namespace	line:2
+random	../min_id.py	/^import random$/;"	kind:namespace	line:3
+st	../min_id.py	/^st = time.time()$/;"	kind:variable	line:6
+time	../min_id.py	/^import time$/;"	kind:namespace	line:1
