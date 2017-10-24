@@ -58,5 +58,8 @@ module.exports = function (callbackBasedApi) {
 - Promise.all
 - Promise.race
 
+## async 
+a = async () => console.log(1)   <====> a = function() {return Promise.resolve().then(() => console.log(1))}
+
 
 
