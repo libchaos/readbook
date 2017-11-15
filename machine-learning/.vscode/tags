@@ -1,0 +1,546 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+01_basics.py	../PyTorchZeroToAll/01_basics.py	1;"	kind:file	line:1
+02_manual_gradient.py	../PyTorchZeroToAll/02_manual_gradient.py	1;"	kind:file	line:1
+03_auto_gradient.py	../PyTorchZeroToAll/03_auto_gradient.py	1;"	kind:file	line:1
+05_linear_regression.py	../PyTorchZeroToAll/05_linear_regression.py	1;"	kind:file	line:1
+06_logistic_regression.py	../PyTorchZeroToAll/06_logistic_regression.py	1;"	kind:file	line:1
+07_diabets_logistic.py	../PyTorchZeroToAll/07_diabets_logistic.py	1;"	kind:file	line:1
+08_1_dataset_loader.py	../PyTorchZeroToAll/08_1_dataset_loader.py	1;"	kind:file	line:1
+08_2_dataset_loade_logistic.py	../PyTorchZeroToAll/08_2_dataset_loade_logistic.py	1;"	kind:file	line:1
+09_01_softmax_loss.py	../PyTorchZeroToAll/09_01_softmax_loss.py	1;"	kind:file	line:1
+09_2_softmax_mnist.py	../PyTorchZeroToAll/09_2_softmax_mnist.py	1;"	kind:file	line:1
+10_1_cnn_mnist.py	../PyTorchZeroToAll/10_1_cnn_mnist.py	1;"	kind:file	line:1
+11_1_toy_inception_mnist.py	../PyTorchZeroToAll/11_1_toy_inception_mnist.py	1;"	kind:file	line:1
+12_1_rnn_basics.py	../PyTorchZeroToAll/12_1_rnn_basics.py	1;"	kind:file	line:1
+12_2_hello_rnn.py	../PyTorchZeroToAll/12_2_hello_rnn.py	1;"	kind:file	line:1
+12_3_hello_rnn_seq.py	../PyTorchZeroToAll/12_3_hello_rnn_seq.py	1;"	kind:file	line:1
+12_4_hello_rnn_emb.py	../PyTorchZeroToAll/12_4_hello_rnn_emb.py	1;"	kind:file	line:1
+12_5_rnn_classify.py	../PyTorchZeroToAll/12_5_rnn_classify.py	1;"	kind:file	line:1
+12_6_char_rnn.py	../PyTorchZeroToAll/12_6_char_rnn.py	1;"	kind:file	line:1
+13_1_seq2seq.py	../PyTorchZeroToAll/13_1_seq2seq.py	1;"	kind:file	line:1
+13_2_seq2seq_att.py	../PyTorchZeroToAll/13_2_seq2seq_att.py	1;"	kind:file	line:1
+13_3_pack_pad.py	../PyTorchZeroToAll/13_3_pack_pad.py	1;"	kind:file	line:1
+AttnDecoderRNN	../PyTorchZeroToAll/seq2seq_models.py	/^class AttnDecoderRNN(nn.Module):$/;"	kind:class	line:87
+BATCH_SIZE	../PyTorchZeroToAll/12_5_rnn_classify.py	/^BATCH_SIZE = 256$/;"	kind:variable	line:15
+BATCH_SIZE	../PyTorchZeroToAll/13_1_seq2seq.py	/^BATCH_SIZE = 1$/;"	kind:variable	line:11
+BATCH_SIZE	../PyTorchZeroToAll/13_2_seq2seq_att.py	/^BATCH_SIZE = 1$/;"	kind:variable	line:16
+DataLoader	../PyTorchZeroToAll/08_1_dataset_loader.py	/^from torch.utils.data import Dataset, DataLoader$/;"	kind:namespace	line:7
+DataLoader	../PyTorchZeroToAll/08_2_dataset_loade_logistic.py	/^from torch.utils.data import Dataset, DataLoader$/;"	kind:namespace	line:7
+DataLoader	../PyTorchZeroToAll/12_5_rnn_classify.py	/^from torch.utils.data import DataLoader$/;"	kind:namespace	line:7
+DataLoader	../PyTorchZeroToAll/12_6_char_rnn.py	/^from torch.utils.data import DataLoader$/;"	kind:namespace	line:5
+DataLoader	../PyTorchZeroToAll/13_1_seq2seq.py	/^from torch.utils.data import DataLoader$/;"	kind:namespace	line:4
+DataLoader	../PyTorchZeroToAll/13_2_seq2seq_att.py	/^from torch.utils.data import DataLoader$/;"	kind:namespace	line:9
+DataLoader	../PyTorchZeroToAll/name_dataset.py	/^from torch.utils.data import Dataset, DataLoader$/;"	kind:namespace	line:7
+DataLoader	../PyTorchZeroToAll/text_loader.py	/^from torch.utils.data import Dataset, DataLoader$/;"	kind:namespace	line:5
+Dataset	../PyTorchZeroToAll/08_1_dataset_loader.py	/^from torch.utils.data import Dataset, DataLoader$/;"	kind:namespace	line:7
+Dataset	../PyTorchZeroToAll/08_2_dataset_loade_logistic.py	/^from torch.utils.data import Dataset, DataLoader$/;"	kind:namespace	line:7
+Dataset	../PyTorchZeroToAll/name_dataset.py	/^from torch.utils.data import Dataset, DataLoader$/;"	kind:namespace	line:7
+Dataset	../PyTorchZeroToAll/text_loader.py	/^from torch.utils.data import Dataset, DataLoader$/;"	kind:namespace	line:5
+DecoderRNN	../PyTorchZeroToAll/seq2seq_models.py	/^class DecoderRNN(nn.Module):$/;"	kind:class	line:64
+DiabetesDataset	../PyTorchZeroToAll/08_1_dataset_loader.py	/^class DiabetesDataset(Dataset):$/;"	kind:class	line:10
+DiabetesDataset	../PyTorchZeroToAll/08_2_dataset_loade_logistic.py	/^class DiabetesDataset(Dataset):$/;"	kind:class	line:10
+EOS_token	../PyTorchZeroToAll/13_1_seq2seq.py	/^from seq2seq_models import str2tensor, EOS_token, SOS_token$/;"	kind:namespace	line:7
+EOS_token	../PyTorchZeroToAll/13_2_seq2seq_att.py	/^from seq2seq_models import cuda_variable, str2tensor, EOS_token, SOS_token$/;"	kind:namespace	line:12
+EOS_token	../PyTorchZeroToAll/seq2seq_models.py	/^EOS_token = 1$/;"	kind:variable	line:11
+EncoderRNN	../PyTorchZeroToAll/seq2seq_models.py	/^class EncoderRNN(nn.Module):$/;"	kind:class	line:40
+F	../PyTorchZeroToAll/06_logistic_regression.py	/^import torch.nn.functional as F$/;"	kind:namespace	line:4
+F	../PyTorchZeroToAll/09_01_softmax_loss.py	/^import torch.nn.functional as F$/;"	kind:namespace	line:3
+F	../PyTorchZeroToAll/09_2_softmax_mnist.py	/^import torch.nn.functional as F$/;"	kind:namespace	line:5
+F	../PyTorchZeroToAll/10_1_cnn_mnist.py	/^import torch.nn.functional as F$/;"	kind:namespace	line:6
+F	../PyTorchZeroToAll/11_1_toy_inception_mnist.py	/^import torch.nn.functional as F$/;"	kind:namespace	line:6
+F	../PyTorchZeroToAll/13_3_pack_pad.py	/^import torch.nn.functional as F$/;"	kind:namespace	line:8
+F	../PyTorchZeroToAll/seq2seq_models.py	/^import torch.nn.functional as F$/;"	kind:namespace	line:6
+HIDDEN_SIZE	../PyTorchZeroToAll/12_5_rnn_classify.py	/^HIDDEN_SIZE = 100$/;"	kind:variable	line:13
+HIDDEN_SIZE	../PyTorchZeroToAll/13_1_seq2seq.py	/^HIDDEN_SIZE = 100$/;"	kind:variable	line:9
+HIDDEN_SIZE	../PyTorchZeroToAll/13_2_seq2seq_att.py	/^HIDDEN_SIZE = N_CHARS$/;"	kind:variable	line:19
+InceptionA	../PyTorchZeroToAll/11_1_toy_inception_mnist.py	/^class InceptionA(nn.Module):$/;"	kind:class	line:34
+MAX_LENGTH	../PyTorchZeroToAll/seq2seq_models.py	/^MAX_LENGTH = 100$/;"	kind:variable	line:8
+Model	../PyTorchZeroToAll/05_linear_regression.py	/^class Model(torch.nn.Module):$/;"	kind:class	line:9
+Model	../PyTorchZeroToAll/06_logistic_regression.py	/^class Model(torch.nn.Module):$/;"	kind:class	line:10
+Model	../PyTorchZeroToAll/07_diabets_logistic.py	/^class Model(torch.nn.Module):$/;"	kind:class	line:14
+Model	../PyTorchZeroToAll/08_2_dataset_loade_logistic.py	/^class Model(torch.nn.Module):$/;"	kind:class	line:34
+Model	../PyTorchZeroToAll/12_2_hello_rnn.py	/^class Model(nn.Module):$/;"	kind:class	line:34
+Model	../PyTorchZeroToAll/12_4_hello_rnn_emb.py	/^class Model(nn.Module):$/;"	kind:class	line:28
+N_CHARS	../PyTorchZeroToAll/12_5_rnn_classify.py	/^N_CHARS = 128  # ASCII$/;"	kind:variable	line:28
+N_CHARS	../PyTorchZeroToAll/13_1_seq2seq.py	/^N_CHARS = 128  # ASCII$/;"	kind:variable	line:13
+N_CHARS	../PyTorchZeroToAll/13_2_seq2seq_att.py	/^N_CHARS = 128  # ASCII$/;"	kind:variable	line:18
+N_COUNTRIES	../PyTorchZeroToAll/12_5_rnn_classify.py	/^N_COUNTRIES = len(train_dataset.get_countries())$/;"	kind:variable	line:27
+N_EPOCH	../PyTorchZeroToAll/13_1_seq2seq.py	/^N_EPOCH = 100$/;"	kind:variable	line:12
+N_EPOCH	../PyTorchZeroToAll/13_2_seq2seq_att.py	/^N_EPOCH = 100$/;"	kind:variable	line:17
+N_EPOCHS	../PyTorchZeroToAll/12_5_rnn_classify.py	/^N_EPOCHS = 100$/;"	kind:variable	line:16
+N_LAYERS	../PyTorchZeroToAll/12_5_rnn_classify.py	/^N_LAYERS = 2$/;"	kind:variable	line:14
+N_LAYERS	../PyTorchZeroToAll/13_1_seq2seq.py	/^N_LAYERS = 1$/;"	kind:variable	line:10
+N_LAYERS	../PyTorchZeroToAll/13_2_seq2seq_att.py	/^N_LAYERS = 1$/;"	kind:variable	line:15
+NameDataset	../PyTorchZeroToAll/12_5_rnn_classify.py	/^from name_dataset import NameDataset$/;"	kind:namespace	line:9
+NameDataset	../PyTorchZeroToAll/name_dataset.py	/^class NameDataset(Dataset):$/;"	kind:class	line:12
+Net	../PyTorchZeroToAll/09_2_softmax_mnist.py	/^class Net(nn.Module):$/;"	kind:class	line:33
+Net	../PyTorchZeroToAll/10_1_cnn_mnist.py	/^class Net(nn.Module):$/;"	kind:class	line:34
+Net	../PyTorchZeroToAll/11_1_toy_inception_mnist.py	/^class Net(nn.Module):$/;"	kind:class	line:66
+RNN	../PyTorchZeroToAll/12_3_hello_rnn_seq.py	/^class RNN(nn.Module):$/;"	kind:class	line:34
+RNN	../PyTorchZeroToAll/12_6_char_rnn.py	/^class RNN(nn.Module):$/;"	kind:class	line:16
+RNNClassifier	../PyTorchZeroToAll/12_5_rnn_classify.py	/^class RNNClassifier(nn.Module):$/;"	kind:class	line:88
+SOS_token	../PyTorchZeroToAll/13_1_seq2seq.py	/^from seq2seq_models import str2tensor, EOS_token, SOS_token$/;"	kind:namespace	line:7
+SOS_token	../PyTorchZeroToAll/13_2_seq2seq_att.py	/^from seq2seq_models import cuda_variable, str2tensor, EOS_token, SOS_token$/;"	kind:namespace	line:12
+SOS_token	../PyTorchZeroToAll/seq2seq_models.py	/^SOS_token = chr(0)$/;"	kind:variable	line:10
+TextDataset	../PyTorchZeroToAll/12_6_char_rnn.py	/^from text_loader import TextDataset$/;"	kind:namespace	line:7
+TextDataset	../PyTorchZeroToAll/13_1_seq2seq.py	/^from text_loader import TextDataset$/;"	kind:namespace	line:5
+TextDataset	../PyTorchZeroToAll/13_2_seq2seq_att.py	/^from text_loader import TextDataset$/;"	kind:namespace	line:10
+TextDataset	../PyTorchZeroToAll/text_loader.py	/^class TextDataset(Dataset):$/;"	kind:class	line:8
+Variable	../PyTorchZeroToAll/03_auto_gradient.py	/^from torch.autograd import Variable$/;"	kind:namespace	line:2
+Variable	../PyTorchZeroToAll/05_linear_regression.py	/^from torch.autograd import Variable$/;"	kind:namespace	line:3
+Variable	../PyTorchZeroToAll/06_logistic_regression.py	/^from torch.autograd import Variable$/;"	kind:namespace	line:3
+Variable	../PyTorchZeroToAll/07_diabets_logistic.py	/^from torch.autograd import Variable$/;"	kind:namespace	line:3
+Variable	../PyTorchZeroToAll/08_1_dataset_loader.py	/^from torch.autograd import Variable$/;"	kind:namespace	line:6
+Variable	../PyTorchZeroToAll/08_2_dataset_loade_logistic.py	/^from torch.autograd import Variable$/;"	kind:namespace	line:6
+Variable	../PyTorchZeroToAll/09_01_softmax_loss.py	/^from torch.autograd import Variable$/;"	kind:namespace	line:6
+Variable	../PyTorchZeroToAll/09_2_softmax_mnist.py	/^from torch.autograd import Variable$/;"	kind:namespace	line:8
+Variable	../PyTorchZeroToAll/10_1_cnn_mnist.py	/^from torch.autograd import Variable$/;"	kind:namespace	line:9
+Variable	../PyTorchZeroToAll/11_1_toy_inception_mnist.py	/^from torch.autograd import Variable$/;"	kind:namespace	line:9
+Variable	../PyTorchZeroToAll/12_1_rnn_basics.py	/^from torch.autograd import Variable$/;"	kind:namespace	line:3
+Variable	../PyTorchZeroToAll/12_2_hello_rnn.py	/^from torch.autograd import Variable$/;"	kind:namespace	line:5
+Variable	../PyTorchZeroToAll/12_3_hello_rnn_seq.py	/^from torch.autograd import Variable$/;"	kind:namespace	line:4
+Variable	../PyTorchZeroToAll/12_4_hello_rnn_emb.py	/^from torch.autograd import Variable$/;"	kind:namespace	line:4
+Variable	../PyTorchZeroToAll/12_5_rnn_classify.py	/^from torch.autograd import Variable$/;"	kind:namespace	line:6
+Variable	../PyTorchZeroToAll/12_6_char_rnn.py	/^from torch.autograd import Variable$/;"	kind:namespace	line:4
+Variable	../PyTorchZeroToAll/13_3_pack_pad.py	/^from torch.autograd import Variable$/;"	kind:namespace	line:6
+Variable	../PyTorchZeroToAll/name_dataset.py	/^from torch.autograd import Variable$/;"	kind:namespace	line:6
+Variable	../PyTorchZeroToAll/seq2seq_models.py	/^from torch.autograd import Variable$/;"	kind:namespace	line:5
+Y	../PyTorchZeroToAll/09_01_softmax_loss.py	/^Y = Variable(torch.LongTensor([0]), requires_grad=False)$/;"	kind:variable	line:28
+Y	../PyTorchZeroToAll/09_01_softmax_loss.py	/^Y = Variable(torch.LongTensor([2, 0, 1]), requires_grad=False)$/;"	kind:variable	line:46
+Y	../PyTorchZeroToAll/09_01_softmax_loss.py	/^Y = np.array([1, 0, 0])$/;"	kind:variable	line:15
+Y_pred1	../PyTorchZeroToAll/09_01_softmax_loss.py	/^Y_pred1 = Variable(torch.Tensor([[0.1, 0.2, 0.9],$/;"	kind:variable	line:50
+Y_pred1	../PyTorchZeroToAll/09_01_softmax_loss.py	/^Y_pred1 = Variable(torch.Tensor([[2.0, 1.0, 0.1]]))$/;"	kind:variable	line:32
+Y_pred1	../PyTorchZeroToAll/09_01_softmax_loss.py	/^Y_pred1 = np.array([0.7, 0.2, 0.1])$/;"	kind:variable	line:17
+Y_pred2	../PyTorchZeroToAll/09_01_softmax_loss.py	/^Y_pred2 = Variable(torch.Tensor([[0.5, 2.0, 0.3]]))$/;"	kind:variable	line:33
+Y_pred2	../PyTorchZeroToAll/09_01_softmax_loss.py	/^Y_pred2 = Variable(torch.Tensor([[0.8, 0.2, 0.3],$/;"	kind:variable	line:55
+Y_pred2	../PyTorchZeroToAll/09_01_softmax_loss.py	/^Y_pred2 = np.array([0.1, 0.3, 0.6])$/;"	kind:variable	line:18
+__getitem__	../PyTorchZeroToAll/08_1_dataset_loader.py	/^    def __getitem__(self, index):$/;"	kind:member	line:21
+__getitem__	../PyTorchZeroToAll/08_2_dataset_loade_logistic.py	/^    def __getitem__(self, index):$/;"	kind:member	line:20
+__getitem__	../PyTorchZeroToAll/name_dataset.py	/^    def __getitem__(self, index):$/;"	kind:member	line:28
+__getitem__	../PyTorchZeroToAll/text_loader.py	/^    def __getitem__(self, index):$/;"	kind:member	line:19
+__init__	../PyTorchZeroToAll/05_linear_regression.py	/^    def __init__(self):$/;"	kind:member	line:11
+__init__	../PyTorchZeroToAll/06_logistic_regression.py	/^    def __init__(self):$/;"	kind:member	line:12
+__init__	../PyTorchZeroToAll/07_diabets_logistic.py	/^    def __init__(self):$/;"	kind:member	line:16
+__init__	../PyTorchZeroToAll/08_1_dataset_loader.py	/^    def __init__(self):$/;"	kind:member	line:14
+__init__	../PyTorchZeroToAll/08_2_dataset_loade_logistic.py	/^    def __init__(self):$/;"	kind:member	line:14
+__init__	../PyTorchZeroToAll/08_2_dataset_loade_logistic.py	/^    def __init__(self):$/;"	kind:member	line:36
+__init__	../PyTorchZeroToAll/09_2_softmax_mnist.py	/^    def __init__(self):$/;"	kind:member	line:35
+__init__	../PyTorchZeroToAll/10_1_cnn_mnist.py	/^    def __init__(self):$/;"	kind:member	line:36
+__init__	../PyTorchZeroToAll/11_1_toy_inception_mnist.py	/^    def __init__(self):$/;"	kind:member	line:68
+__init__	../PyTorchZeroToAll/11_1_toy_inception_mnist.py	/^    def __init__(self, in_channels):$/;"	kind:member	line:36
+__init__	../PyTorchZeroToAll/12_2_hello_rnn.py	/^    def __init__(self):$/;"	kind:member	line:36
+__init__	../PyTorchZeroToAll/12_3_hello_rnn_seq.py	/^    def __init__(self, num_classes, input_size, hidden_size, num_layers):$/;"	kind:member	line:36
+__init__	../PyTorchZeroToAll/12_4_hello_rnn_emb.py	/^    def __init__(self):$/;"	kind:member	line:30
+__init__	../PyTorchZeroToAll/12_5_rnn_classify.py	/^    def __init__(self, input_size, hidden_size, output_size, n_layers=1, bidirectional=True):$/;"	kind:member	line:91
+__init__	../PyTorchZeroToAll/12_6_char_rnn.py	/^    def __init__(self, input_size, hidden_size, output_size, n_layers=1):$/;"	kind:member	line:18
+__init__	../PyTorchZeroToAll/name_dataset.py	/^    def __init__(self, is_train_set=False):$/;"	kind:member	line:16
+__init__	../PyTorchZeroToAll/seq2seq_models.py	/^    def __init__(self, hidden_size, output_size, n_layers=1):$/;"	kind:member	line:66
+__init__	../PyTorchZeroToAll/seq2seq_models.py	/^    def __init__(self, hidden_size, output_size, n_layers=1, dropout_p=0.1):$/;"	kind:member	line:89
+__init__	../PyTorchZeroToAll/seq2seq_models.py	/^    def __init__(self, input_size, hidden_size, n_layers=1):$/;"	kind:member	line:42
+__init__	../PyTorchZeroToAll/text_loader.py	/^    def __init__(self, filename=".\/data\/shakespeare.txt.gz"):$/;"	kind:member	line:11
+__len__	../PyTorchZeroToAll/08_1_dataset_loader.py	/^    def __len__(self):$/;"	kind:member	line:24
+__len__	../PyTorchZeroToAll/08_2_dataset_loade_logistic.py	/^    def __len__(self):$/;"	kind:member	line:23
+__len__	../PyTorchZeroToAll/name_dataset.py	/^    def __len__(self):$/;"	kind:member	line:31
+__len__	../PyTorchZeroToAll/text_loader.py	/^    def __len__(self):$/;"	kind:member	line:22
+_init_hidden	../PyTorchZeroToAll/12_5_rnn_classify.py	/^    def _init_hidden(self, batch_size):$/;"	kind:member	line:130
+argparse	../PyTorchZeroToAll/10_1_cnn_mnist.py	/^import argparse$/;"	kind:namespace	line:3
+argparse	../PyTorchZeroToAll/11_1_toy_inception_mnist.py	/^import argparse$/;"	kind:namespace	line:3
+batch_size	../PyTorchZeroToAll/09_2_softmax_mnist.py	/^                                           batch_size=batch_size,$/;"	kind:variable	line:25
+batch_size	../PyTorchZeroToAll/09_2_softmax_mnist.py	/^                                          batch_size=batch_size,$/;"	kind:variable	line:29
+batch_size	../PyTorchZeroToAll/09_2_softmax_mnist.py	/^batch_size = 64$/;"	kind:variable	line:11
+batch_size	../PyTorchZeroToAll/10_1_cnn_mnist.py	/^                                           batch_size=batch_size,$/;"	kind:variable	line:26
+batch_size	../PyTorchZeroToAll/10_1_cnn_mnist.py	/^                                          batch_size=batch_size,$/;"	kind:variable	line:30
+batch_size	../PyTorchZeroToAll/10_1_cnn_mnist.py	/^batch_size = 64$/;"	kind:variable	line:12
+batch_size	../PyTorchZeroToAll/11_1_toy_inception_mnist.py	/^                                           batch_size=batch_size,$/;"	kind:variable	line:26
+batch_size	../PyTorchZeroToAll/11_1_toy_inception_mnist.py	/^                                          batch_size=batch_size,$/;"	kind:variable	line:30
+batch_size	../PyTorchZeroToAll/11_1_toy_inception_mnist.py	/^batch_size = 64$/;"	kind:variable	line:12
+batch_size	../PyTorchZeroToAll/12_2_hello_rnn.py	/^batch_size = 1   # one sentence$/;"	kind:variable	line:29
+batch_size	../PyTorchZeroToAll/12_3_hello_rnn_seq.py	/^batch_size = 1   # one sentence$/;"	kind:variable	line:29
+batch_size	../PyTorchZeroToAll/12_4_hello_rnn_emb.py	/^batch_size = 1   # one sentence$/;"	kind:variable	line:23
+batch_size	../PyTorchZeroToAll/12_6_char_rnn.py	/^                              batch_size=batch_size,$/;"	kind:variable	line:117
+batch_size	../PyTorchZeroToAll/12_6_char_rnn.py	/^batch_size = 1$/;"	kind:variable	line:11
+batch_size	../PyTorchZeroToAll/13_1_seq2seq.py	/^                          batch_size=BATCH_SIZE,$/;"	kind:variable	line:107
+batch_size	../PyTorchZeroToAll/13_2_seq2seq_att.py	/^                              batch_size=BATCH_SIZE,$/;"	kind:variable	line:125
+cell	../PyTorchZeroToAll/12_1_rnn_basics.py	/^cell = nn.RNN(input_size=4, hidden_size=2, batch_first=True)$/;"	kind:variable	line:12
+classifier	../PyTorchZeroToAll/12_5_rnn_classify.py	/^        classifier = nn.DataParallel(classifier)$/;"	kind:variable	line:192
+classifier	../PyTorchZeroToAll/12_5_rnn_classify.py	/^    classifier = RNNClassifier(N_CHARS, HIDDEN_SIZE, N_COUNTRIES, N_LAYERS)$/;"	kind:variable	line:188
+countries2tensor	../PyTorchZeroToAll/12_5_rnn_classify.py	/^def countries2tensor(countries):$/;"	kind:function	line:82
+create_variable	../PyTorchZeroToAll/12_5_rnn_classify.py	/^def create_variable(tensor):$/;"	kind:function	line:39
+criterion	../PyTorchZeroToAll/05_linear_regression.py	/^criterion = torch.nn.MSELoss(size_average=False)$/;"	kind:variable	line:34
+criterion	../PyTorchZeroToAll/06_logistic_regression.py	/^criterion = torch.nn.BCELoss(size_average=True)$/;"	kind:variable	line:34
+criterion	../PyTorchZeroToAll/07_diabets_logistic.py	/^criterion = torch.nn.BCELoss(size_average=True)$/;"	kind:variable	line:45
+criterion	../PyTorchZeroToAll/08_2_dataset_loade_logistic.py	/^criterion = torch.nn.BCELoss(size_average=True)$/;"	kind:variable	line:65
+criterion	../PyTorchZeroToAll/09_2_softmax_mnist.py	/^criterion = nn.CrossEntropyLoss()$/;"	kind:variable	line:54
+criterion	../PyTorchZeroToAll/12_2_hello_rnn.py	/^criterion = torch.nn.CrossEntropyLoss()$/;"	kind:variable	line:63
+criterion	../PyTorchZeroToAll/12_3_hello_rnn_seq.py	/^criterion = torch.nn.CrossEntropyLoss()$/;"	kind:variable	line:70
+criterion	../PyTorchZeroToAll/12_4_hello_rnn_emb.py	/^criterion = torch.nn.CrossEntropyLoss()$/;"	kind:variable	line:58
+criterion	../PyTorchZeroToAll/12_5_rnn_classify.py	/^    criterion = nn.CrossEntropyLoss()$/;"	kind:variable	line:198
+criterion	../PyTorchZeroToAll/12_6_char_rnn.py	/^    criterion = nn.CrossEntropyLoss()$/;"	kind:variable	line:114
+criterion	../PyTorchZeroToAll/13_1_seq2seq.py	/^criterion = nn.CrossEntropyLoss()$/;"	kind:variable	line:103
+criterion	../PyTorchZeroToAll/13_2_seq2seq_att.py	/^    criterion = nn.CrossEntropyLoss()$/;"	kind:variable	line:121
+csv	../PyTorchZeroToAll/name_dataset.py	/^import csv$/;"	kind:namespace	line:8
+cuda_variable	../PyTorchZeroToAll/13_2_seq2seq_att.py	/^from seq2seq_models import cuda_variable, str2tensor, EOS_token, SOS_token$/;"	kind:namespace	line:12
+cuda_variable	../PyTorchZeroToAll/seq2seq_models.py	/^def cuda_variable(tensor):$/;"	kind:function	line:17
+dataset	../PyTorchZeroToAll/08_1_dataset_loader.py	/^dataset = DiabetesDataset()$/;"	kind:variable	line:28
+dataset	../PyTorchZeroToAll/08_2_dataset_loade_logistic.py	/^dataset = DiabetesDataset()$/;"	kind:variable	line:27
+dataset	../PyTorchZeroToAll/name_dataset.py	/^    dataset = NameDataset(False)$/;"	kind:variable	line:45
+dataset	../PyTorchZeroToAll/text_loader.py	/^    dataset = TextDataset()$/;"	kind:variable	line:28
+datasets	../PyTorchZeroToAll/09_01_softmax_loss.py	/^from torchvision import datasets, transforms$/;"	kind:namespace	line:5
+datasets	../PyTorchZeroToAll/09_2_softmax_mnist.py	/^from torchvision import datasets, transforms$/;"	kind:namespace	line:7
+datasets	../PyTorchZeroToAll/10_1_cnn_mnist.py	/^from torchvision import datasets, transforms$/;"	kind:namespace	line:8
+datasets	../PyTorchZeroToAll/11_1_toy_inception_mnist.py	/^from torchvision import datasets, transforms$/;"	kind:namespace	line:8
+decoder	../PyTorchZeroToAll/12_6_char_rnn.py	/^    decoder = RNN(n_characters, hidden_size, n_characters, n_layers)$/;"	kind:variable	line:109
+decoder	../PyTorchZeroToAll/13_1_seq2seq.py	/^decoder = sm.DecoderRNN(HIDDEN_SIZE, N_CHARS, N_LAYERS)$/;"	kind:variable	line:93
+decoder	../PyTorchZeroToAll/13_2_seq2seq_att.py	/^    decoder = sm.AttnDecoderRNN(HIDDEN_SIZE, N_CHARS, N_LAYERS)$/;"	kind:variable	line:111
+decoder_optimizer	../PyTorchZeroToAll/12_6_char_rnn.py	/^    decoder_optimizer = torch.optim.Adam(decoder.parameters(), lr=0.001)$/;"	kind:variable	line:113
+download	../PyTorchZeroToAll/09_2_softmax_mnist.py	/^                               download=True)$/;"	kind:variable	line:17
+download	../PyTorchZeroToAll/10_1_cnn_mnist.py	/^                               download=True)$/;"	kind:variable	line:18
+download	../PyTorchZeroToAll/11_1_toy_inception_mnist.py	/^                               download=True)$/;"	kind:variable	line:18
+e	../PyTorchZeroToAll/12_1_rnn_basics.py	/^e = [0, 1, 0, 0]$/;"	kind:variable	line:7
+embed	../PyTorchZeroToAll/13_3_pack_pad.py	/^embed = nn.Embedding(len(vocab), embedding_size)$/;"	kind:variable	line:23
+embedding_size	../PyTorchZeroToAll/12_4_hello_rnn_emb.py	/^embedding_size = 10  # embedding size$/;"	kind:variable	line:21
+embedding_size	../PyTorchZeroToAll/13_3_pack_pad.py	/^embedding_size = 3$/;"	kind:variable	line:22
+embeded_seq_tensor	../PyTorchZeroToAll/13_3_pack_pad.py	/^embeded_seq_tensor = embed(seq_tensor)$/;"	kind:variable	line:54
+encoder	../PyTorchZeroToAll/13_1_seq2seq.py	/^encoder = sm.EncoderRNN(N_CHARS, HIDDEN_SIZE, N_LAYERS)$/;"	kind:variable	line:92
+encoder	../PyTorchZeroToAll/13_2_seq2seq_att.py	/^    encoder = sm.EncoderRNN(N_CHARS, HIDDEN_SIZE, N_LAYERS)$/;"	kind:variable	line:110
+flatten	../PyTorchZeroToAll/13_3_pack_pad.py	/^def flatten(l):$/;"	kind:function	line:13
+forward	../PyTorchZeroToAll/01_basics.py	/^def forward(x):$/;"	kind:function	line:9
+forward	../PyTorchZeroToAll/02_manual_gradient.py	/^def forward(x):$/;"	kind:function	line:9
+forward	../PyTorchZeroToAll/03_auto_gradient.py	/^def forward(x):$/;"	kind:function	line:12
+forward	../PyTorchZeroToAll/05_linear_regression.py	/^    def forward(self, x):$/;"	kind:member	line:18
+forward	../PyTorchZeroToAll/06_logistic_regression.py	/^    def forward(self, x):$/;"	kind:member	line:19
+forward	../PyTorchZeroToAll/07_diabets_logistic.py	/^    def forward(self, x):$/;"	kind:member	line:27
+forward	../PyTorchZeroToAll/08_2_dataset_loade_logistic.py	/^    def forward(self, x):$/;"	kind:member	line:47
+forward	../PyTorchZeroToAll/09_2_softmax_mnist.py	/^    def forward(self, x):$/;"	kind:member	line:43
+forward	../PyTorchZeroToAll/10_1_cnn_mnist.py	/^    def forward(self, x):$/;"	kind:member	line:43
+forward	../PyTorchZeroToAll/11_1_toy_inception_mnist.py	/^    def forward(self, x):$/;"	kind:member	line:49
+forward	../PyTorchZeroToAll/11_1_toy_inception_mnist.py	/^    def forward(self, x):$/;"	kind:member	line:79
+forward	../PyTorchZeroToAll/12_2_hello_rnn.py	/^    def forward(self, hidden, x):$/;"	kind:member	line:41
+forward	../PyTorchZeroToAll/12_3_hello_rnn_seq.py	/^    def forward(self, x):$/;"	kind:member	line:47
+forward	../PyTorchZeroToAll/12_4_hello_rnn_emb.py	/^    def forward(self, x):$/;"	kind:member	line:36
+forward	../PyTorchZeroToAll/12_5_rnn_classify.py	/^    def forward(self, input, seq_lengths):$/;"	kind:member	line:104
+forward	../PyTorchZeroToAll/12_6_char_rnn.py	/^    def forward(self, input, hidden):$/;"	kind:member	line:32
+forward	../PyTorchZeroToAll/seq2seq_models.py	/^    def forward(self, input, hidden):$/;"	kind:member	line:73
+forward	../PyTorchZeroToAll/seq2seq_models.py	/^    def forward(self, word_input, last_hidden, encoder_hiddens):$/;"	kind:member	line:101
+forward	../PyTorchZeroToAll/seq2seq_models.py	/^    def forward(self, word_inputs, hidden):$/;"	kind:member	line:51
+generate	../PyTorchZeroToAll/12_6_char_rnn.py	/^def generate(decoder, prime_str='A', predict_len=100, temperature=0.8):$/;"	kind:function	line:58
+get_att_score	../PyTorchZeroToAll/seq2seq_models.py	/^    def get_att_score(self, hidden, encoder_hidden):$/;"	kind:member	line:141
+get_att_weight	../PyTorchZeroToAll/seq2seq_models.py	/^    def get_att_weight(self, hidden, encoder_hiddens):$/;"	kind:member	line:124
+get_countries	../PyTorchZeroToAll/name_dataset.py	/^    def get_countries(self):$/;"	kind:member	line:34
+get_country	../PyTorchZeroToAll/name_dataset.py	/^    def get_country(self, id):$/;"	kind:member	line:37
+get_country_id	../PyTorchZeroToAll/name_dataset.py	/^    def get_country_id(self, country):$/;"	kind:member	line:40
+gradient	../PyTorchZeroToAll/02_manual_gradient.py	/^def gradient(x, y):  # d_loss\/d_w$/;"	kind:function	line:20
+gzip	../PyTorchZeroToAll/name_dataset.py	/^import gzip$/;"	kind:namespace	line:9
+gzip	../PyTorchZeroToAll/text_loader.py	/^import gzip$/;"	kind:namespace	line:4
+h	../PyTorchZeroToAll/12_1_rnn_basics.py	/^h = [1, 0, 0, 0]$/;"	kind:variable	line:6
+hidden	../PyTorchZeroToAll/12_1_rnn_basics.py	/^hidden = (Variable(torch.randn(1, 1, 2)))$/;"	kind:variable	line:16
+hidden	../PyTorchZeroToAll/12_2_hello_rnn.py	/^    hidden = model.init_hidden()$/;"	kind:variable	line:70
+hidden_size	../PyTorchZeroToAll/12_2_hello_rnn.py	/^hidden_size = 5  # output from the RNN. 5 to directly predict one-hot$/;"	kind:variable	line:28
+hidden_size	../PyTorchZeroToAll/12_3_hello_rnn_seq.py	/^hidden_size = 5  # output from the LSTM. 5 to directly predict one-hot$/;"	kind:variable	line:28
+hidden_size	../PyTorchZeroToAll/12_4_hello_rnn_emb.py	/^hidden_size = 5  # output from the LSTM. 5 to directly predict one-hot$/;"	kind:variable	line:22
+hidden_size	../PyTorchZeroToAll/12_6_char_rnn.py	/^hidden_size = 100$/;"	kind:variable	line:9
+hour_var	../PyTorchZeroToAll/05_linear_regression.py	/^hour_var = Variable(torch.Tensor([[4.0]]))$/;"	kind:variable	line:53
+hour_var	../PyTorchZeroToAll/06_logistic_regression.py	/^hour_var = Variable(torch.Tensor([[1.0]]))$/;"	kind:variable	line:52
+hour_var	../PyTorchZeroToAll/06_logistic_regression.py	/^hour_var = Variable(torch.Tensor([[7.0]]))$/;"	kind:variable	line:54
+idx	../PyTorchZeroToAll/12_3_hello_rnn_seq.py	/^    idx = idx.data.numpy()$/;"	kind:variable	line:81
+idx	../PyTorchZeroToAll/12_4_hello_rnn_emb.py	/^    idx = idx.data.numpy()$/;"	kind:variable	line:69
+idx2char	../PyTorchZeroToAll/12_2_hello_rnn.py	/^idx2char = ['h', 'i', 'e', 'l', 'o']$/;"	kind:variable	line:9
+idx2char	../PyTorchZeroToAll/12_3_hello_rnn_seq.py	/^idx2char = ['h', 'i', 'e', 'l', 'o']$/;"	kind:variable	line:9
+idx2char	../PyTorchZeroToAll/12_4_hello_rnn_emb.py	/^idx2char = ['h', 'i', 'e', 'l', 'o']$/;"	kind:variable	line:9
+init_hidden	../PyTorchZeroToAll/12_2_hello_rnn.py	/^    def init_hidden(self):$/;"	kind:member	line:51
+init_hidden	../PyTorchZeroToAll/12_6_char_rnn.py	/^    def init_hidden(self):$/;"	kind:member	line:39
+init_hidden	../PyTorchZeroToAll/seq2seq_models.py	/^    def init_hidden(self):$/;"	kind:member	line:59
+init_hidden	../PyTorchZeroToAll/seq2seq_models.py	/^    def init_hidden(self):$/;"	kind:member	line:82
+input_size	../PyTorchZeroToAll/12_2_hello_rnn.py	/^input_size = 5  # one-hot size$/;"	kind:variable	line:27
+input_size	../PyTorchZeroToAll/12_3_hello_rnn_seq.py	/^input_size = 5  # one-hot size$/;"	kind:variable	line:27
+input_size	../PyTorchZeroToAll/12_4_hello_rnn_emb.py	/^input_size = 5$/;"	kind:variable	line:20
+inputs	../PyTorchZeroToAll/12_1_rnn_basics.py	/^inputs = Variable(torch.Tensor([[h, e, l, l, o],$/;"	kind:variable	line:39
+inputs	../PyTorchZeroToAll/12_1_rnn_basics.py	/^inputs = Variable(torch.Tensor([[h, e, l, l, o]]))$/;"	kind:variable	line:20
+inputs	../PyTorchZeroToAll/12_2_hello_rnn.py	/^inputs = Variable(torch.Tensor(x_one_hot))$/;"	kind:variable	line:23
+inputs	../PyTorchZeroToAll/12_3_hello_rnn_seq.py	/^inputs = Variable(torch.Tensor(x_one_hot))$/;"	kind:variable	line:23
+inputs	../PyTorchZeroToAll/12_4_hello_rnn_emb.py	/^inputs = Variable(torch.LongTensor(x_data))$/;"	kind:variable	line:16
+itertools	../PyTorchZeroToAll/13_3_pack_pad.py	/^import itertools$/;"	kind:namespace	line:10
+l	../PyTorchZeroToAll/01_basics.py	/^        l = loss(x_val, y_val)$/;"	kind:variable	line:27
+l	../PyTorchZeroToAll/03_auto_gradient.py	/^        l = loss(x_val, y_val)$/;"	kind:variable	line:28
+l	../PyTorchZeroToAll/12_1_rnn_basics.py	/^l = [0, 0, 1, 0]$/;"	kind:variable	line:8
+l1	../PyTorchZeroToAll/09_01_softmax_loss.py	/^l1 = loss(Y_pred1, Y)$/;"	kind:variable	line:35
+l1	../PyTorchZeroToAll/09_01_softmax_loss.py	/^l1 = loss(Y_pred1, Y)$/;"	kind:variable	line:59
+l2	../PyTorchZeroToAll/09_01_softmax_loss.py	/^l2 = loss(Y_pred2, Y)$/;"	kind:variable	line:36
+l2	../PyTorchZeroToAll/09_01_softmax_loss.py	/^l2 = loss(Y_pred2, Y)$/;"	kind:variable	line:60
+l_sum	../PyTorchZeroToAll/01_basics.py	/^    l_sum = 0$/;"	kind:variable	line:24
+labels	../PyTorchZeroToAll/12_2_hello_rnn.py	/^labels = Variable(torch.LongTensor(y_data))$/;"	kind:variable	line:24
+labels	../PyTorchZeroToAll/12_3_hello_rnn_seq.py	/^labels = Variable(torch.LongTensor(y_data))$/;"	kind:variable	line:24
+labels	../PyTorchZeroToAll/12_4_hello_rnn_emb.py	/^labels = Variable(torch.LongTensor(y_data))$/;"	kind:variable	line:17
+loss	../PyTorchZeroToAll/01_basics.py	/^def loss(x, y):$/;"	kind:function	line:14
+loss	../PyTorchZeroToAll/02_manual_gradient.py	/^def loss(x, y):$/;"	kind:function	line:14
+loss	../PyTorchZeroToAll/03_auto_gradient.py	/^def loss(x, y):$/;"	kind:function	line:18
+loss	../PyTorchZeroToAll/05_linear_regression.py	/^    loss = criterion(y_pred, y_data)$/;"	kind:variable	line:43
+loss	../PyTorchZeroToAll/06_logistic_regression.py	/^    loss = criterion(y_pred, y_data)$/;"	kind:variable	line:43
+loss	../PyTorchZeroToAll/07_diabets_logistic.py	/^    loss = criterion(y_pred, y_data)$/;"	kind:variable	line:54
+loss	../PyTorchZeroToAll/09_01_softmax_loss.py	/^loss = nn.CrossEntropyLoss()$/;"	kind:variable	line:23
+loss	../PyTorchZeroToAll/12_2_hello_rnn.py	/^    loss = 0$/;"	kind:variable	line:69
+loss	../PyTorchZeroToAll/12_3_hello_rnn_seq.py	/^    loss = criterion(outputs, labels)$/;"	kind:variable	line:77
+loss	../PyTorchZeroToAll/12_4_hello_rnn_emb.py	/^    loss = criterion(outputs, labels)$/;"	kind:variable	line:65
+loss	../PyTorchZeroToAll/12_6_char_rnn.py	/^            loss = train(lines[0])  # Batch size is 1$/;"	kind:variable	line:123
+lstm	../PyTorchZeroToAll/13_3_pack_pad.py	/^lstm = nn.LSTM(embedding_size, 5)$/;"	kind:variable	line:24
+make_variables	../PyTorchZeroToAll/12_5_rnn_classify.py	/^def make_variables(names, countries):$/;"	kind:function	line:70
+math	../PyTorchZeroToAll/12_5_rnn_classify.py	/^import math$/;"	kind:namespace	line:3
+matplotlib	../PyTorchZeroToAll/01_basics.py	/^import matplotlib.pyplot as plt$/;"	kind:namespace	line:2
+model	../PyTorchZeroToAll/05_linear_regression.py	/^model = Model()$/;"	kind:variable	line:28
+model	../PyTorchZeroToAll/06_logistic_regression.py	/^model = Model()$/;"	kind:variable	line:28
+model	../PyTorchZeroToAll/07_diabets_logistic.py	/^model = Model()$/;"	kind:variable	line:39
+model	../PyTorchZeroToAll/08_2_dataset_loade_logistic.py	/^model = Model()$/;"	kind:variable	line:59
+model	../PyTorchZeroToAll/09_2_softmax_mnist.py	/^model = Net()$/;"	kind:variable	line:52
+model	../PyTorchZeroToAll/10_1_cnn_mnist.py	/^model = Net()$/;"	kind:variable	line:52
+model	../PyTorchZeroToAll/11_1_toy_inception_mnist.py	/^model = Net()$/;"	kind:variable	line:90
+model	../PyTorchZeroToAll/12_2_hello_rnn.py	/^model = Model()$/;"	kind:variable	line:58
+model	../PyTorchZeroToAll/12_4_hello_rnn_emb.py	/^model = Model()$/;"	kind:variable	line:53
+mse_list	../PyTorchZeroToAll/01_basics.py	/^mse_list = []$/;"	kind:variable	line:20
+n_characters	../PyTorchZeroToAll/12_6_char_rnn.py	/^n_characters = 128  # ASCII$/;"	kind:variable	line:13
+n_epochs	../PyTorchZeroToAll/12_6_char_rnn.py	/^n_epochs = 100$/;"	kind:variable	line:12
+n_layers	../PyTorchZeroToAll/12_6_char_rnn.py	/^n_layers = 3$/;"	kind:variable	line:10
+name_dataset.py	../PyTorchZeroToAll/name_dataset.py	1;"	kind:file	line:1
+nn	../PyTorchZeroToAll/06_logistic_regression.py	/^import torch.nn.functional as F$/;"	kind:namespace	line:4
+nn	../PyTorchZeroToAll/09_01_softmax_loss.py	/^import torch.nn as nn$/;"	kind:namespace	line:2
+nn	../PyTorchZeroToAll/09_01_softmax_loss.py	/^import torch.nn.functional as F$/;"	kind:namespace	line:3
+nn	../PyTorchZeroToAll/09_2_softmax_mnist.py	/^import torch.nn as nn$/;"	kind:namespace	line:4
+nn	../PyTorchZeroToAll/09_2_softmax_mnist.py	/^import torch.nn.functional as F$/;"	kind:namespace	line:5
+nn	../PyTorchZeroToAll/10_1_cnn_mnist.py	/^import torch.nn as nn$/;"	kind:namespace	line:5
+nn	../PyTorchZeroToAll/10_1_cnn_mnist.py	/^import torch.nn.functional as F$/;"	kind:namespace	line:6
+nn	../PyTorchZeroToAll/11_1_toy_inception_mnist.py	/^import torch.nn as nn$/;"	kind:namespace	line:5
+nn	../PyTorchZeroToAll/11_1_toy_inception_mnist.py	/^import torch.nn.functional as F$/;"	kind:namespace	line:6
+nn	../PyTorchZeroToAll/12_1_rnn_basics.py	/^import torch.nn as nn$/;"	kind:namespace	line:2
+nn	../PyTorchZeroToAll/12_2_hello_rnn.py	/^import torch.nn as nn$/;"	kind:namespace	line:4
+nn	../PyTorchZeroToAll/12_3_hello_rnn_seq.py	/^import torch.nn as nn$/;"	kind:namespace	line:3
+nn	../PyTorchZeroToAll/12_4_hello_rnn_emb.py	/^import torch.nn as nn$/;"	kind:namespace	line:3
+nn	../PyTorchZeroToAll/12_5_rnn_classify.py	/^import torch.nn as nn$/;"	kind:namespace	line:5
+nn	../PyTorchZeroToAll/12_6_char_rnn.py	/^import torch.nn as nn$/;"	kind:namespace	line:3
+nn	../PyTorchZeroToAll/13_1_seq2seq.py	/^import torch.nn as nn$/;"	kind:namespace	line:3
+nn	../PyTorchZeroToAll/13_2_seq2seq_att.py	/^import torch.nn as nn$/;"	kind:namespace	line:7
+nn	../PyTorchZeroToAll/13_3_pack_pad.py	/^import torch.nn as nn$/;"	kind:namespace	line:5
+nn	../PyTorchZeroToAll/13_3_pack_pad.py	/^import torch.nn.functional as F$/;"	kind:namespace	line:8
+nn	../PyTorchZeroToAll/seq2seq_models.py	/^import torch.nn as nn$/;"	kind:namespace	line:4
+nn	../PyTorchZeroToAll/seq2seq_models.py	/^import torch.nn.functional as F$/;"	kind:namespace	line:6
+np	../PyTorchZeroToAll/01_basics.py	/^import numpy as np$/;"	kind:namespace	line:1
+np	../PyTorchZeroToAll/07_diabets_logistic.py	/^import numpy as np$/;"	kind:namespace	line:4
+np	../PyTorchZeroToAll/08_1_dataset_loader.py	/^import numpy as np$/;"	kind:namespace	line:5
+np	../PyTorchZeroToAll/08_2_dataset_loade_logistic.py	/^import numpy as np$/;"	kind:namespace	line:5
+np	../PyTorchZeroToAll/09_01_softmax_loss.py	/^import numpy as np$/;"	kind:namespace	line:10
+np	../PyTorchZeroToAll/13_3_pack_pad.py	/^import numpy as np$/;"	kind:namespace	line:9
+np	../PyTorchZeroToAll/name_dataset.py	/^import numpy as np$/;"	kind:namespace	line:5
+np	../code/plt.py	/^import numpy as np$/;"	kind:namespace	line:1
+num_classes	../PyTorchZeroToAll/12_2_hello_rnn.py	/^num_classes = 5$/;"	kind:variable	line:26
+num_classes	../PyTorchZeroToAll/12_3_hello_rnn_seq.py	/^num_classes = 5$/;"	kind:variable	line:26
+num_classes	../PyTorchZeroToAll/12_4_hello_rnn_emb.py	/^num_classes = 5$/;"	kind:variable	line:19
+num_layers	../PyTorchZeroToAll/12_2_hello_rnn.py	/^num_layers = 1  # one-layer rnn$/;"	kind:variable	line:31
+num_layers	../PyTorchZeroToAll/12_3_hello_rnn_seq.py	/^num_layers = 1  # one-layer rnn$/;"	kind:variable	line:31
+num_layers	../PyTorchZeroToAll/12_4_hello_rnn_emb.py	/^num_layers = 1  # one-layer rnn$/;"	kind:variable	line:25
+num_workers	../PyTorchZeroToAll/13_1_seq2seq.py	/^                          num_workers=2)$/;"	kind:variable	line:109
+num_workers	../PyTorchZeroToAll/13_2_seq2seq_att.py	/^                              num_workers=2)$/;"	kind:variable	line:127
+o	../PyTorchZeroToAll/12_1_rnn_basics.py	/^o = [0, 0, 0, 1]$/;"	kind:variable	line:9
+one	../PyTorchZeroToAll/12_1_rnn_basics.py	/^    one = one.view(1, 1, -1)$/;"	kind:variable	line:24
+one_hot_lookup	../PyTorchZeroToAll/12_2_hello_rnn.py	/^one_hot_lookup = [[1, 0, 0, 0, 0],  # 0$/;"	kind:variable	line:13
+optim	../PyTorchZeroToAll/09_01_softmax_loss.py	/^import torch.optim as optim$/;"	kind:namespace	line:4
+optim	../PyTorchZeroToAll/09_2_softmax_mnist.py	/^import torch.optim as optim$/;"	kind:namespace	line:6
+optim	../PyTorchZeroToAll/10_1_cnn_mnist.py	/^import torch.optim as optim$/;"	kind:namespace	line:7
+optim	../PyTorchZeroToAll/11_1_toy_inception_mnist.py	/^import torch.optim as optim$/;"	kind:namespace	line:7
+optimizer	../PyTorchZeroToAll/05_linear_regression.py	/^optimizer = torch.optim.SGD(model.parameters(), lr=0.01)$/;"	kind:variable	line:35
+optimizer	../PyTorchZeroToAll/06_logistic_regression.py	/^optimizer = torch.optim.SGD(model.parameters(), lr=0.01)$/;"	kind:variable	line:35
+optimizer	../PyTorchZeroToAll/07_diabets_logistic.py	/^optimizer = torch.optim.SGD(model.parameters(), lr=0.1)$/;"	kind:variable	line:46
+optimizer	../PyTorchZeroToAll/08_2_dataset_loade_logistic.py	/^optimizer = torch.optim.SGD(model.parameters(), lr=0.1)$/;"	kind:variable	line:66
+optimizer	../PyTorchZeroToAll/09_2_softmax_mnist.py	/^optimizer = optim.SGD(model.parameters(), lr=0.01, momentum=0.5)$/;"	kind:variable	line:55
+optimizer	../PyTorchZeroToAll/10_1_cnn_mnist.py	/^optimizer = optim.SGD(model.parameters(), lr=0.01, momentum=0.5)$/;"	kind:variable	line:54
+optimizer	../PyTorchZeroToAll/11_1_toy_inception_mnist.py	/^optimizer = optim.SGD(model.parameters(), lr=0.01, momentum=0.5)$/;"	kind:variable	line:92
+optimizer	../PyTorchZeroToAll/12_2_hello_rnn.py	/^optimizer = torch.optim.Adam(model.parameters(), lr=0.1)$/;"	kind:variable	line:64
+optimizer	../PyTorchZeroToAll/12_3_hello_rnn_seq.py	/^optimizer = torch.optim.Adam(rnn.parameters(), lr=0.1)$/;"	kind:variable	line:71
+optimizer	../PyTorchZeroToAll/12_4_hello_rnn_emb.py	/^optimizer = torch.optim.Adam(model.parameters(), lr=0.1)$/;"	kind:variable	line:59
+optimizer	../PyTorchZeroToAll/12_5_rnn_classify.py	/^    optimizer = torch.optim.Adam(classifier.parameters(), lr=0.001)$/;"	kind:variable	line:197
+optimizer	../PyTorchZeroToAll/13_1_seq2seq.py	/^optimizer = torch.optim.Adam(params, lr=0.001)$/;"	kind:variable	line:102
+optimizer	../PyTorchZeroToAll/13_2_seq2seq_att.py	/^    optimizer = torch.optim.Adam(params, lr=0.001)$/;"	kind:variable	line:120
+outputs	../PyTorchZeroToAll/12_3_hello_rnn_seq.py	/^    outputs = rnn(inputs)$/;"	kind:variable	line:75
+outputs	../PyTorchZeroToAll/12_4_hello_rnn_emb.py	/^    outputs = model(inputs)$/;"	kind:variable	line:63
+pack_padded_sequence	../PyTorchZeroToAll/12_5_rnn_classify.py	/^from torch.nn.utils.rnn import pack_padded_sequence, pad_packed_sequence$/;"	kind:namespace	line:10
+pack_padded_sequence	../PyTorchZeroToAll/13_3_pack_pad.py	/^from torch.nn.utils.rnn import pack_padded_sequence, pad_packed_sequence$/;"	kind:namespace	line:7
+packed_input	../PyTorchZeroToAll/13_3_pack_pad.py	/^packed_input = pack_padded_sequence($/;"	kind:variable	line:58
+pad_packed_sequence	../PyTorchZeroToAll/12_5_rnn_classify.py	/^from torch.nn.utils.rnn import pack_padded_sequence, pad_packed_sequence$/;"	kind:namespace	line:10
+pad_packed_sequence	../PyTorchZeroToAll/13_3_pack_pad.py	/^from torch.nn.utils.rnn import pack_padded_sequence, pad_packed_sequence$/;"	kind:namespace	line:7
+pad_sequences	../PyTorchZeroToAll/12_5_rnn_classify.py	/^def pad_sequences(vectorized_seqs, seq_lengths, countries):$/;"	kind:function	line:48
+params	../PyTorchZeroToAll/13_1_seq2seq.py	/^params = list(encoder.parameters()) + list(decoder.parameters())$/;"	kind:variable	line:101
+params	../PyTorchZeroToAll/13_2_seq2seq_att.py	/^    params = list(encoder.parameters()) + list(decoder.parameters())$/;"	kind:variable	line:119
+plot_decision_regions	../code/plt.py	/^def plot_decision_regions(X, y, classifier, test_idx=None, resolution=0.02):$/;"	kind:function	line:4
+plt	../PyTorchZeroToAll/01_basics.py	/^import matplotlib.pyplot as plt$/;"	kind:namespace	line:2
+plt.py	../code/plt.py	1;"	kind:file	line:1
+print_function	../PyTorchZeroToAll/09_2_softmax_mnist.py	/^from __future__ import print_function$/;"	kind:namespace	line:2
+print_function	../PyTorchZeroToAll/10_1_cnn_mnist.py	/^from __future__ import print_function$/;"	kind:namespace	line:2
+print_function	../PyTorchZeroToAll/11_1_toy_inception_mnist.py	/^from __future__ import print_function$/;"	kind:namespace	line:2
+result_str	../PyTorchZeroToAll/12_3_hello_rnn_seq.py	/^    result_str = [idx2char[c] for c in idx.squeeze()]$/;"	kind:variable	line:82
+result_str	../PyTorchZeroToAll/12_4_hello_rnn_emb.py	/^    result_str = [idx2char[c] for c in idx.squeeze()]$/;"	kind:variable	line:70
+rnn	../PyTorchZeroToAll/12_3_hello_rnn_seq.py	/^rnn = RNN(num_classes, input_size, hidden_size, num_layers)$/;"	kind:variable	line:65
+seq2seq_models.py	../PyTorchZeroToAll/seq2seq_models.py	1;"	kind:file	line:1
+seq_lengths	../PyTorchZeroToAll/13_3_pack_pad.py	/^seq_lengths = torch.LongTensor([x for x in map(len, vectorized_seqs)])$/;"	kind:variable	line:31
+seq_tensor	../PyTorchZeroToAll/13_3_pack_pad.py	/^seq_tensor = Variable(torch.zeros($/;"	kind:variable	line:35
+seq_tensor	../PyTorchZeroToAll/13_3_pack_pad.py	/^seq_tensor = seq_tensor.transpose(0, 1)  # (B,L,D) -> (L,B,D)$/;"	kind:variable	line:50
+seq_tensor	../PyTorchZeroToAll/13_3_pack_pad.py	/^seq_tensor = seq_tensor[perm_idx]$/;"	kind:variable	line:44
+seqs	../PyTorchZeroToAll/13_3_pack_pad.py	/^seqs = ['ghatmasala', 'nicela', 'chutpakodas']$/;"	kind:variable	line:16
+sequence_length	../PyTorchZeroToAll/12_2_hello_rnn.py	/^sequence_length = 1  # One by one$/;"	kind:variable	line:30
+sequence_length	../PyTorchZeroToAll/12_3_hello_rnn_seq.py	/^sequence_length = 6  # |ihello| == 6$/;"	kind:variable	line:30
+sequence_length	../PyTorchZeroToAll/12_4_hello_rnn_emb.py	/^sequence_length = 6  # |ihello| == 6$/;"	kind:variable	line:24
+shuffle	../PyTorchZeroToAll/09_2_softmax_mnist.py	/^                                           shuffle=True)$/;"	kind:variable	line:26
+shuffle	../PyTorchZeroToAll/09_2_softmax_mnist.py	/^                                          shuffle=False)$/;"	kind:variable	line:30
+shuffle	../PyTorchZeroToAll/10_1_cnn_mnist.py	/^                                           shuffle=True)$/;"	kind:variable	line:27
+shuffle	../PyTorchZeroToAll/10_1_cnn_mnist.py	/^                                          shuffle=False)$/;"	kind:variable	line:31
+shuffle	../PyTorchZeroToAll/11_1_toy_inception_mnist.py	/^                                           shuffle=True)$/;"	kind:variable	line:27
+shuffle	../PyTorchZeroToAll/11_1_toy_inception_mnist.py	/^                                          shuffle=False)$/;"	kind:variable	line:31
+shuffle	../PyTorchZeroToAll/12_6_char_rnn.py	/^                              shuffle=True)$/;"	kind:variable	line:118
+shuffle	../PyTorchZeroToAll/13_1_seq2seq.py	/^                          shuffle=True,$/;"	kind:variable	line:108
+shuffle	../PyTorchZeroToAll/13_2_seq2seq_att.py	/^                              shuffle=True,$/;"	kind:variable	line:126
+sm	../PyTorchZeroToAll/13_1_seq2seq.py	/^import seq2seq_models as sm$/;"	kind:namespace	line:6
+sm	../PyTorchZeroToAll/13_2_seq2seq_att.py	/^import seq2seq_models as sm$/;"	kind:namespace	line:11
+start	../PyTorchZeroToAll/12_5_rnn_classify.py	/^    start = time.time()$/;"	kind:variable	line:200
+str2ascii_arr	../PyTorchZeroToAll/12_5_rnn_classify.py	/^def str2ascii_arr(msg):$/;"	kind:function	line:77
+str2tensor	../PyTorchZeroToAll/12_6_char_rnn.py	/^def str2tensor(str):$/;"	kind:function	line:48
+str2tensor	../PyTorchZeroToAll/13_1_seq2seq.py	/^from seq2seq_models import str2tensor, EOS_token, SOS_token$/;"	kind:namespace	line:7
+str2tensor	../PyTorchZeroToAll/13_2_seq2seq_att.py	/^from seq2seq_models import cuda_variable, str2tensor, EOS_token, SOS_token$/;"	kind:namespace	line:12
+str2tensor	../PyTorchZeroToAll/seq2seq_models.py	/^def str2tensor(msg, eos=False):$/;"	kind:function	line:26
+sys	../PyTorchZeroToAll/12_2_hello_rnn.py	/^import sys$/;"	kind:namespace	line:2
+test	../PyTorchZeroToAll/09_2_softmax_mnist.py	/^def test():$/;"	kind:function	line:73
+test	../PyTorchZeroToAll/10_1_cnn_mnist.py	/^def test():$/;"	kind:function	line:72
+test	../PyTorchZeroToAll/11_1_toy_inception_mnist.py	/^def test():$/;"	kind:function	line:110
+test	../PyTorchZeroToAll/12_5_rnn_classify.py	/^def test(name=None):$/;"	kind:function	line:162
+test	../PyTorchZeroToAll/13_1_seq2seq.py	/^def test():$/;"	kind:function	line:17
+test	../PyTorchZeroToAll/13_2_seq2seq_att.py	/^def test():$/;"	kind:function	line:23
+test_dataset	../PyTorchZeroToAll/09_2_softmax_mnist.py	/^test_dataset = datasets.MNIST(root='.\/data\/',$/;"	kind:variable	line:19
+test_dataset	../PyTorchZeroToAll/10_1_cnn_mnist.py	/^test_dataset = datasets.MNIST(root='.\/data\/',$/;"	kind:variable	line:20
+test_dataset	../PyTorchZeroToAll/11_1_toy_inception_mnist.py	/^test_dataset = datasets.MNIST(root='.\/data\/',$/;"	kind:variable	line:20
+test_dataset	../PyTorchZeroToAll/12_5_rnn_classify.py	/^test_dataset = NameDataset(is_train_set=False)$/;"	kind:variable	line:18
+test_loader	../PyTorchZeroToAll/09_2_softmax_mnist.py	/^test_loader = torch.utils.data.DataLoader(dataset=test_dataset,$/;"	kind:variable	line:28
+test_loader	../PyTorchZeroToAll/10_1_cnn_mnist.py	/^test_loader = torch.utils.data.DataLoader(dataset=test_dataset,$/;"	kind:variable	line:29
+test_loader	../PyTorchZeroToAll/11_1_toy_inception_mnist.py	/^test_loader = torch.utils.data.DataLoader(dataset=test_dataset,$/;"	kind:variable	line:29
+test_loader	../PyTorchZeroToAll/12_5_rnn_classify.py	/^test_loader = DataLoader(dataset=test_dataset,$/;"	kind:variable	line:19
+text_loader.py	../PyTorchZeroToAll/text_loader.py	1;"	kind:file	line:1
+time	../PyTorchZeroToAll/12_5_rnn_classify.py	/^import time$/;"	kind:namespace	line:2
+time_since	../PyTorchZeroToAll/12_5_rnn_classify.py	/^def time_since(since):$/;"	kind:function	line:32
+torch	../PyTorchZeroToAll/03_auto_gradient.py	/^import torch$/;"	kind:namespace	line:1
+torch	../PyTorchZeroToAll/05_linear_regression.py	/^import torch$/;"	kind:namespace	line:2
+torch	../PyTorchZeroToAll/06_logistic_regression.py	/^import torch$/;"	kind:namespace	line:2
+torch	../PyTorchZeroToAll/06_logistic_regression.py	/^import torch.nn.functional as F$/;"	kind:namespace	line:4
+torch	../PyTorchZeroToAll/07_diabets_logistic.py	/^import torch$/;"	kind:namespace	line:2
+torch	../PyTorchZeroToAll/08_1_dataset_loader.py	/^import torch$/;"	kind:namespace	line:4
+torch	../PyTorchZeroToAll/08_2_dataset_loade_logistic.py	/^import torch$/;"	kind:namespace	line:4
+torch	../PyTorchZeroToAll/09_01_softmax_loss.py	/^import torch$/;"	kind:namespace	line:1
+torch	../PyTorchZeroToAll/09_01_softmax_loss.py	/^import torch.nn as nn$/;"	kind:namespace	line:2
+torch	../PyTorchZeroToAll/09_01_softmax_loss.py	/^import torch.nn.functional as F$/;"	kind:namespace	line:3
+torch	../PyTorchZeroToAll/09_01_softmax_loss.py	/^import torch.optim as optim$/;"	kind:namespace	line:4
+torch	../PyTorchZeroToAll/09_2_softmax_mnist.py	/^import torch$/;"	kind:namespace	line:3
+torch	../PyTorchZeroToAll/09_2_softmax_mnist.py	/^import torch.nn as nn$/;"	kind:namespace	line:4
+torch	../PyTorchZeroToAll/09_2_softmax_mnist.py	/^import torch.nn.functional as F$/;"	kind:namespace	line:5
+torch	../PyTorchZeroToAll/09_2_softmax_mnist.py	/^import torch.optim as optim$/;"	kind:namespace	line:6
+torch	../PyTorchZeroToAll/10_1_cnn_mnist.py	/^import torch$/;"	kind:namespace	line:4
+torch	../PyTorchZeroToAll/10_1_cnn_mnist.py	/^import torch.nn as nn$/;"	kind:namespace	line:5
+torch	../PyTorchZeroToAll/10_1_cnn_mnist.py	/^import torch.nn.functional as F$/;"	kind:namespace	line:6
+torch	../PyTorchZeroToAll/10_1_cnn_mnist.py	/^import torch.optim as optim$/;"	kind:namespace	line:7
+torch	../PyTorchZeroToAll/11_1_toy_inception_mnist.py	/^import torch$/;"	kind:namespace	line:4
+torch	../PyTorchZeroToAll/11_1_toy_inception_mnist.py	/^import torch.nn as nn$/;"	kind:namespace	line:5
+torch	../PyTorchZeroToAll/11_1_toy_inception_mnist.py	/^import torch.nn.functional as F$/;"	kind:namespace	line:6
+torch	../PyTorchZeroToAll/11_1_toy_inception_mnist.py	/^import torch.optim as optim$/;"	kind:namespace	line:7
+torch	../PyTorchZeroToAll/12_1_rnn_basics.py	/^import torch$/;"	kind:namespace	line:1
+torch	../PyTorchZeroToAll/12_1_rnn_basics.py	/^import torch.nn as nn$/;"	kind:namespace	line:2
+torch	../PyTorchZeroToAll/12_2_hello_rnn.py	/^import torch$/;"	kind:namespace	line:3
+torch	../PyTorchZeroToAll/12_2_hello_rnn.py	/^import torch.nn as nn$/;"	kind:namespace	line:4
+torch	../PyTorchZeroToAll/12_3_hello_rnn_seq.py	/^import torch$/;"	kind:namespace	line:2
+torch	../PyTorchZeroToAll/12_3_hello_rnn_seq.py	/^import torch.nn as nn$/;"	kind:namespace	line:3
+torch	../PyTorchZeroToAll/12_4_hello_rnn_emb.py	/^import torch$/;"	kind:namespace	line:2
+torch	../PyTorchZeroToAll/12_4_hello_rnn_emb.py	/^import torch.nn as nn$/;"	kind:namespace	line:3
+torch	../PyTorchZeroToAll/12_5_rnn_classify.py	/^import torch$/;"	kind:namespace	line:4
+torch	../PyTorchZeroToAll/12_5_rnn_classify.py	/^import torch.nn as nn$/;"	kind:namespace	line:5
+torch	../PyTorchZeroToAll/12_6_char_rnn.py	/^import torch$/;"	kind:namespace	line:2
+torch	../PyTorchZeroToAll/12_6_char_rnn.py	/^import torch.nn as nn$/;"	kind:namespace	line:3
+torch	../PyTorchZeroToAll/13_1_seq2seq.py	/^import torch$/;"	kind:namespace	line:2
+torch	../PyTorchZeroToAll/13_1_seq2seq.py	/^import torch.nn as nn$/;"	kind:namespace	line:3
+torch	../PyTorchZeroToAll/13_2_seq2seq_att.py	/^import torch$/;"	kind:namespace	line:6
+torch	../PyTorchZeroToAll/13_2_seq2seq_att.py	/^import torch.nn as nn$/;"	kind:namespace	line:7
+torch	../PyTorchZeroToAll/13_3_pack_pad.py	/^import torch$/;"	kind:namespace	line:4
+torch	../PyTorchZeroToAll/13_3_pack_pad.py	/^import torch.nn as nn$/;"	kind:namespace	line:5
+torch	../PyTorchZeroToAll/13_3_pack_pad.py	/^import torch.nn.functional as F$/;"	kind:namespace	line:8
+torch	../PyTorchZeroToAll/name_dataset.py	/^import torch$/;"	kind:namespace	line:4
+torch	../PyTorchZeroToAll/seq2seq_models.py	/^import torch$/;"	kind:namespace	line:3
+torch	../PyTorchZeroToAll/seq2seq_models.py	/^import torch.nn as nn$/;"	kind:namespace	line:4
+torch	../PyTorchZeroToAll/seq2seq_models.py	/^import torch.nn.functional as F$/;"	kind:namespace	line:6
+train	../PyTorchZeroToAll/09_2_softmax_mnist.py	/^                               train=True,$/;"	kind:variable	line:15
+train	../PyTorchZeroToAll/09_2_softmax_mnist.py	/^                              train=False,$/;"	kind:variable	line:20
+train	../PyTorchZeroToAll/09_2_softmax_mnist.py	/^def train(epoch):$/;"	kind:function	line:58
+train	../PyTorchZeroToAll/10_1_cnn_mnist.py	/^                               train=True,$/;"	kind:variable	line:16
+train	../PyTorchZeroToAll/10_1_cnn_mnist.py	/^                              train=False,$/;"	kind:variable	line:21
+train	../PyTorchZeroToAll/10_1_cnn_mnist.py	/^def train(epoch):$/;"	kind:function	line:57
+train	../PyTorchZeroToAll/11_1_toy_inception_mnist.py	/^                               train=True,$/;"	kind:variable	line:16
+train	../PyTorchZeroToAll/11_1_toy_inception_mnist.py	/^                              train=False,$/;"	kind:variable	line:21
+train	../PyTorchZeroToAll/11_1_toy_inception_mnist.py	/^def train(epoch):$/;"	kind:function	line:95
+train	../PyTorchZeroToAll/12_5_rnn_classify.py	/^def train():$/;"	kind:function	line:137
+train	../PyTorchZeroToAll/12_6_char_rnn.py	/^def train(line):$/;"	kind:function	line:89
+train	../PyTorchZeroToAll/13_1_seq2seq.py	/^def train(src, target):$/;"	kind:function	line:38
+train	../PyTorchZeroToAll/13_2_seq2seq_att.py	/^def train(src, target):$/;"	kind:function	line:54
+train_dataset	../PyTorchZeroToAll/09_2_softmax_mnist.py	/^train_dataset = datasets.MNIST(root='.\/data\/',$/;"	kind:variable	line:14
+train_dataset	../PyTorchZeroToAll/10_1_cnn_mnist.py	/^train_dataset = datasets.MNIST(root='.\/data\/',$/;"	kind:variable	line:15
+train_dataset	../PyTorchZeroToAll/11_1_toy_inception_mnist.py	/^train_dataset = datasets.MNIST(root='.\/data\/',$/;"	kind:variable	line:15
+train_dataset	../PyTorchZeroToAll/12_5_rnn_classify.py	/^train_dataset = NameDataset(is_train_set=True)$/;"	kind:variable	line:23
+train_loader	../PyTorchZeroToAll/08_1_dataset_loader.py	/^train_loader = DataLoader(dataset=dataset,$/;"	kind:variable	line:29
+train_loader	../PyTorchZeroToAll/08_2_dataset_loade_logistic.py	/^train_loader = DataLoader(dataset=dataset,$/;"	kind:variable	line:28
+train_loader	../PyTorchZeroToAll/09_2_softmax_mnist.py	/^train_loader = torch.utils.data.DataLoader(dataset=train_dataset,$/;"	kind:variable	line:24
+train_loader	../PyTorchZeroToAll/10_1_cnn_mnist.py	/^train_loader = torch.utils.data.DataLoader(dataset=train_dataset,$/;"	kind:variable	line:25
+train_loader	../PyTorchZeroToAll/11_1_toy_inception_mnist.py	/^train_loader = torch.utils.data.DataLoader(dataset=train_dataset,$/;"	kind:variable	line:25
+train_loader	../PyTorchZeroToAll/12_5_rnn_classify.py	/^train_loader = DataLoader(dataset=train_dataset,$/;"	kind:variable	line:24
+train_loader	../PyTorchZeroToAll/12_6_char_rnn.py	/^    train_loader = DataLoader(dataset=TextDataset(),$/;"	kind:variable	line:116
+train_loader	../PyTorchZeroToAll/13_1_seq2seq.py	/^train_loader = DataLoader(dataset=TextDataset(),$/;"	kind:variable	line:106
+train_loader	../PyTorchZeroToAll/13_2_seq2seq_att.py	/^    train_loader = DataLoader(dataset=TextDataset(),$/;"	kind:variable	line:124
+train_loader	../PyTorchZeroToAll/name_dataset.py	/^    train_loader = DataLoader(dataset=dataset,$/;"	kind:variable	line:50
+train_loader	../PyTorchZeroToAll/text_loader.py	/^    train_loader = DataLoader(dataset=dataset,$/;"	kind:variable	line:29
+train_loss	../PyTorchZeroToAll/13_1_seq2seq.py	/^        train_loss = train(srcs[0], targets[0])  # Batch is 1$/;"	kind:variable	line:115
+train_loss	../PyTorchZeroToAll/13_2_seq2seq_att.py	/^            train_loss = train(srcs[0], targets[0])$/;"	kind:variable	line:133
+transform	../PyTorchZeroToAll/09_2_softmax_mnist.py	/^                               transform=transforms.ToTensor(),$/;"	kind:variable	line:16
+transform	../PyTorchZeroToAll/09_2_softmax_mnist.py	/^                              transform=transforms.ToTensor())$/;"	kind:variable	line:21
+transform	../PyTorchZeroToAll/10_1_cnn_mnist.py	/^                               transform=transforms.ToTensor(),$/;"	kind:variable	line:17
+transform	../PyTorchZeroToAll/10_1_cnn_mnist.py	/^                              transform=transforms.ToTensor())$/;"	kind:variable	line:22
+transform	../PyTorchZeroToAll/11_1_toy_inception_mnist.py	/^                               transform=transforms.ToTensor(),$/;"	kind:variable	line:17
+transform	../PyTorchZeroToAll/11_1_toy_inception_mnist.py	/^                              transform=transforms.ToTensor())$/;"	kind:variable	line:22
+transforms	../PyTorchZeroToAll/09_01_softmax_loss.py	/^from torchvision import datasets, transforms$/;"	kind:namespace	line:5
+transforms	../PyTorchZeroToAll/09_2_softmax_mnist.py	/^from torchvision import datasets, transforms$/;"	kind:namespace	line:7
+transforms	../PyTorchZeroToAll/10_1_cnn_mnist.py	/^from torchvision import datasets, transforms$/;"	kind:namespace	line:8
+transforms	../PyTorchZeroToAll/11_1_toy_inception_mnist.py	/^from torchvision import datasets, transforms$/;"	kind:namespace	line:8
+translate	../PyTorchZeroToAll/13_1_seq2seq.py	/^def translate(enc_input='thisissungkim.iloveyou.', predict_len=100, temperature=0.9):$/;"	kind:function	line:64
+translate	../PyTorchZeroToAll/13_2_seq2seq_att.py	/^def translate(enc_input='thisissungkim.iloveyou.', predict_len=100, temperature=0.9):$/;"	kind:function	line:80
+vectorized_seqs	../PyTorchZeroToAll/13_3_pack_pad.py	/^vectorized_seqs = [[vocab.index(tok) for tok in seq]for seq in seqs]$/;"	kind:variable	line:26
+vocab	../PyTorchZeroToAll/13_3_pack_pad.py	/^vocab = ['<pad>'] + sorted(list(set(flatten(seqs))))$/;"	kind:variable	line:19
+w	../PyTorchZeroToAll/02_manual_gradient.py	/^w = 1.0  # a random guess: random value$/;"	kind:variable	line:4
+w	../PyTorchZeroToAll/03_auto_gradient.py	/^w = Variable(torch.Tensor([1.0]),  requires_grad=True)  # Any random value$/;"	kind:variable	line:7
+w_list	../PyTorchZeroToAll/01_basics.py	/^w_list = []$/;"	kind:variable	line:19
+x_data	../PyTorchZeroToAll/01_basics.py	/^x_data = [1.0, 2.0, 3.0]$/;"	kind:variable	line:4
+x_data	../PyTorchZeroToAll/02_manual_gradient.py	/^x_data = [1.0, 2.0, 3.0]$/;"	kind:variable	line:1
+x_data	../PyTorchZeroToAll/03_auto_gradient.py	/^x_data = [1.0, 2.0, 3.0]$/;"	kind:variable	line:4
+x_data	../PyTorchZeroToAll/05_linear_regression.py	/^x_data = Variable(torch.Tensor([[1.0], [2.0], [3.0]]))$/;"	kind:variable	line:5
+x_data	../PyTorchZeroToAll/06_logistic_regression.py	/^x_data = Variable(torch.Tensor([[1.0], [2.0], [3.0], [4.0]]))$/;"	kind:variable	line:6
+x_data	../PyTorchZeroToAll/07_diabets_logistic.py	/^x_data = Variable(torch.from_numpy(xy[:, 0:-1]))$/;"	kind:variable	line:7
+x_data	../PyTorchZeroToAll/12_2_hello_rnn.py	/^x_data = [0, 1, 0, 2, 3, 3]   # hihell$/;"	kind:variable	line:12
+x_data	../PyTorchZeroToAll/12_3_hello_rnn_seq.py	/^x_data = [[0, 1, 0, 2, 3, 3]]   # hihell$/;"	kind:variable	line:12
+x_data	../PyTorchZeroToAll/12_4_hello_rnn_emb.py	/^x_data = [[0, 1, 0, 2, 3, 3]]   # hihell$/;"	kind:variable	line:12
+x_one_hot	../PyTorchZeroToAll/12_2_hello_rnn.py	/^x_one_hot = [one_hot_lookup[x] for x in x_data]$/;"	kind:variable	line:20
+x_one_hot	../PyTorchZeroToAll/12_3_hello_rnn_seq.py	/^x_one_hot = [[[1, 0, 0, 0, 0],   # h 0$/;"	kind:variable	line:13
+xy	../PyTorchZeroToAll/07_diabets_logistic.py	/^xy = np.loadtxt('.\/data\/diabetes.csv.gz', delimiter=',', dtype=np.float32)$/;"	kind:variable	line:6
+y_data	../PyTorchZeroToAll/01_basics.py	/^y_data = [2.0, 4.0, 6.0]$/;"	kind:variable	line:5
+y_data	../PyTorchZeroToAll/02_manual_gradient.py	/^y_data = [2.0, 4.0, 6.0]$/;"	kind:variable	line:2
+y_data	../PyTorchZeroToAll/03_auto_gradient.py	/^y_data = [2.0, 4.0, 6.0]$/;"	kind:variable	line:5
+y_data	../PyTorchZeroToAll/05_linear_regression.py	/^y_data = Variable(torch.Tensor([[2.0], [4.0], [6.0]]))$/;"	kind:variable	line:6
+y_data	../PyTorchZeroToAll/06_logistic_regression.py	/^y_data = Variable(torch.Tensor([[0.], [0.], [1.], [1.]]))$/;"	kind:variable	line:7
+y_data	../PyTorchZeroToAll/07_diabets_logistic.py	/^y_data = Variable(torch.from_numpy(xy[:, [-1]]))$/;"	kind:variable	line:8
+y_data	../PyTorchZeroToAll/12_2_hello_rnn.py	/^y_data = [1, 0, 2, 3, 3, 4]    # ihello$/;"	kind:variable	line:19
+y_data	../PyTorchZeroToAll/12_3_hello_rnn_seq.py	/^y_data = [1, 0, 2, 3, 3, 4]    # ihello$/;"	kind:variable	line:20
+y_data	../PyTorchZeroToAll/12_4_hello_rnn_emb.py	/^y_data = [1, 0, 2, 3, 3, 4]    # ihello$/;"	kind:variable	line:13
+y_pred	../PyTorchZeroToAll/05_linear_regression.py	/^    y_pred = model(x_data)$/;"	kind:variable	line:40
+y_pred	../PyTorchZeroToAll/05_linear_regression.py	/^y_pred = model(hour_var)$/;"	kind:variable	line:54
+y_pred	../PyTorchZeroToAll/06_logistic_regression.py	/^    y_pred = model(x_data)$/;"	kind:variable	line:40
+y_pred	../PyTorchZeroToAll/07_diabets_logistic.py	/^    y_pred = model(x_data)$/;"	kind:variable	line:51
+y_pred_val	../PyTorchZeroToAll/01_basics.py	/^        y_pred_val = forward(x_val)$/;"	kind:variable	line:26

@@ -12,7 +12,8 @@
                 <app-user-detail :myName="name" @nameWasReset="name=$event" :resetFn="resetName" :userAge="age"></app-user-detail>
             </div>
             <div class="col-xs-12 col-sm-6">
-                <app-user-edit :userAge="age" @ageWasEdited="age=$event"></app-user-edit>
+                <button @click="show=!show">show</button>
+                <app-user-edit :userAge="age" @ageWasEdited="age=$event" v-if="show"></app-user-edit>
             </div>
         </div>
     </div>
@@ -30,7 +31,8 @@
         data() {
             return {
                 name: 'Max',
-                age: 27
+                age: 27,
+                show: true
             }
         },
         methods: {
@@ -38,9 +40,11 @@
                 return this.name = name
             },
             resetName() {
+              
                 this.name = 'Maxxx'
+                this.$destory()
             }
-        }
+        },
     }
 </script>
 

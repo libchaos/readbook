@@ -5,6 +5,8 @@
     <p>Change {{ userAge }}</p>
     <button @click="editAge">Change age</button>
     <button @click="changeAge">Event Bus Change</button>
+
+    <app-user-detail :myName="name" @nameWasReset="name=$event" :resetFn="resetName" :userAge="age"></app-user-detail>
   </div>
 </template>
 
@@ -12,7 +14,14 @@
   import {
     eventBus
   } from '../main.js'
+  import UserDetail from './UserDetail.vue'
   export default {
+    data() {
+      return {
+         name: 'Max',
+         age: 27,
+      }
+    },
     props: ['userAge'],
     methods: {
       editAge() {
@@ -24,6 +33,16 @@
         // eventBus.$emit('ageBusChange', this.userAge)
         eventBus.changeAge(this.userAge)
       }
+    },
+    beforeDestroy() {
+      console.log('before  ', this)
+    },
+    destroyed() {
+   
+      console.log(this)
+    },
+    components: {
+      appUserDetail: UserDetail
     }
   }
 </script>
