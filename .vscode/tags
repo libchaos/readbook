@@ -78,6 +78,7 @@ DiabetesDataset	../machine-learning/PyTorchZeroToAll/08_1_dataset_loader.py	/^cl
 DiabetesDataset	../machine-learning/PyTorchZeroToAll/08_2_dataset_loade_logistic.py	/^class DiabetesDataset(Dataset):$/;"	kind:class	line:10
 DictVectorizer	../NLP-python/NLPython/ch5/CustomPOStagger/ownpostag.py	/^from sklearn.feature_extraction import DictVectorizer$/;"	kind:namespace	line:8
 DictVectorizer	../NLP-python/NLPython/ch5/onehotencodingdemo/OHEdemo.py	/^from sklearn.feature_extraction import DictVectorizer$/;"	kind:namespace	line:2
+EMB_SIZE	../CMU-NLP/01-intro/cbow.py	/^EMB_SIZE = 64$/;"	kind:variable	line:29
 EOS_token	../machine-learning/PyTorchZeroToAll/13_1_seq2seq.py	/^from seq2seq_models import str2tensor, EOS_token, SOS_token$/;"	kind:namespace	line:7
 EOS_token	../machine-learning/PyTorchZeroToAll/13_2_seq2seq_att.py	/^from seq2seq_models import cuda_variable, str2tensor, EOS_token, SOS_token$/;"	kind:namespace	line:12
 EOS_token	../machine-learning/PyTorchZeroToAll/seq2seq_models.py	/^EOS_token = 1$/;"	kind:variable	line:11
@@ -168,6 +169,8 @@ TfidfVectorizer	../NLP-python/NLPython/ch8/sentimentanalysis/sentimentanalysis_N
 TfidfVectorizer	../NLP-python/NLPython/ch8/sentimentanalysis/sentimentanalysis_SVM.py	/^from sklearn.feature_extraction.text import TfidfVectorizer$/;"	kind:namespace	line:8
 Tree	../NLP-python/NLPython/ch5/parserexample/StanfordParserdemo.py	/^from nltk.tree import Tree$/;"	kind:namespace	line:2
 Tree	../NLP-python/NLPython/ch7/7_3_SVArule.py	/^from nltk.tree import Tree$/;"	kind:namespace	line:2
+UNK	../CMU-NLP/01-intro/bow.py	/^UNK = w2i['<unk>']$/;"	kind:variable	line:9
+UNK	../CMU-NLP/01-intro/cbow.py	/^UNK = w2i['<unk>']$/;"	kind:variable	line:10
 Variable	../machine-learning/PyTorchZeroToAll/03_auto_gradient.py	/^from torch.autograd import Variable$/;"	kind:namespace	line:3
 Variable	../machine-learning/PyTorchZeroToAll/05_linear_regression.py	/^from torch.autograd import Variable$/;"	kind:namespace	line:3
 Variable	../machine-learning/PyTorchZeroToAll/06_logistic_regression.py	/^from torch.autograd import Variable$/;"	kind:namespace	line:3
@@ -190,6 +193,9 @@ Variable	../machine-learning/PyTorchZeroToAll/seq2seq_models.py	/^from torch.aut
 Vector	../fluentPython/code/Vector.py	/^class Vector:$/;"	kind:class	line:3
 Vector.py	../fluentPython/code/Vector.py	1;"	kind:file	line:1
 WORDS	../NLP-python/NLPython/ch4/4_6_spellingcorrection.py	/^WORDS = Counter(words(open('\/home\/jalaj\/PycharmProjects\/NLPython\/NLPython\/data\/big.txt').read()))$/;"	kind:variable	line:7
+W_emb	../CMU-NLP/01-intro/cbow.py	/^W_emb = model.add_lookup_parameters((nwords, EMB_SIZE))$/;"	kind:variable	line:30
+W_sm	../CMU-NLP/01-intro/bow.py	/^W_sm = model.add_lookup_parameters((nwords, ntags))$/;"	kind:variable	line:30
+W_sm	../CMU-NLP/01-intro/cbow.py	/^W_sm = model.add_parameters((ntags, EMB_SIZE))$/;"	kind:variable	line:31
 WebScrapingTestItem	../NLP-python/NLPython/web_scraping_test/web_scraping_test/items.py	/^class WebScrapingTestItem(scrapy.Item):$/;"	kind:class	line:11
 WebScrapingTestPipeline	../NLP-python/NLPython/web_scraping_test/web_scraping_test/pipelines.py	/^class WebScrapingTestPipeline(object):$/;"	kind:class	line:9
 WebScrapingTestSpiderMiddleware	../NLP-python/NLPython/web_scraping_test/web_scraping_test/middlewares.py	/^class WebScrapingTestSpiderMiddleware(object):$/;"	kind:class	line:11
@@ -272,6 +278,7 @@ add_layer	../NLP-python/NLPython/ch9/make_neural_net/threelayersANN.py	/^    def
 advanceregex	../NLP-python/NLPython/ch4/4_5_regualrexpression.py	/^def advanceregex():$/;"	kind:function	line:49
 allowed_domains	../NLP-python/NLPython/web_scraping_test/web_scraping_test/spiders/WebScrapingTestspider.py	/^    allowed_domains = ["stackoverflow.com"]$/;"	kind:variable	line:6
 alpha	../NLP-python/NLPython/ch8/Own_Logistic_Regression/logistic.py	/^alpha = 0.1$/;"	kind:variable	line:168
+animation	../the_math_intelligence/k_means_clustering/kmeans.py	/^import matplotlib.animation as animation$/;"	kind:namespace	line:3
 app	../NLP-python/NLPython/ch7/chatbot/flaskengin.py	/^app = Flask(__name__)$/;"	kind:variable	line:10
 argparse	../machine-learning/PyTorchZeroToAll/10_1_cnn_mnist.py	/^import argparse$/;"	kind:namespace	line:3
 argparse	../machine-learning/PyTorchZeroToAll/11_1_toy_inception_mnist.py	/^import argparse$/;"	kind:namespace	line:3
@@ -280,6 +287,8 @@ asking_borowers_email_id	../NLP-python/NLPython/ch7/chatbot/flaskengin.py	/^def 
 asking_borowers_full_name	../NLP-python/NLPython/ch7/chatbot/flaskengin.py	/^def asking_borowers_full_name():$/;"	kind:function	line:120
 assistant_defualt_welcome_msg	../NLP-python/NLPython/ch7/chatbot/customscripts/conversationengine.py	/^assistant_defualt_welcome_msg = [$/;"	kind:variable	line:9
 ast	../NLP-python/NLPython/ch7/chatbot/customscripts/conversationengine.py	/^import requests, ast$/;"	kind:namespace	line:6
+b_sm	../CMU-NLP/01-intro/bow.py	/^b_sm = model.add_parameters((ntags))$/;"	kind:variable	line:31
+b_sm	../CMU-NLP/01-intro/cbow.py	/^b_sm = model.add_parameters((ntags))$/;"	kind:variable	line:32
 basicregex	../NLP-python/NLPython/ch4/4_5_regualrexpression.py	/^def basicregex():$/;"	kind:function	line:19
 batch_size	../machine-learning/PyTorchZeroToAll/09_2_softmax_mnist.py	/^                                           batch_size=batch_size,$/;"	kind:variable	line:25
 batch_size	../machine-learning/PyTorchZeroToAll/09_2_softmax_mnist.py	/^                                          batch_size=batch_size,$/;"	kind:variable	line:29
@@ -304,8 +313,12 @@ blob3	../NLP-python/NLPython/ch5/TFIDFdemo/tfidf_textblob.py	/^blob3 = TextBlob(
 bloblist	../NLP-python/NLPython/ch5/TFIDFdemo/tfidf_textblob.py	/^bloblist = [blob, blob2, blob3]$/;"	kind:variable	line:25
 borrowers_email_id_asking	../NLP-python/NLPython/ch7/chatbot/customscripts/conversationengine.py	/^def borrowers_email_id_asking(emailid):$/;"	kind:function	line:110
 borrowers_name_asking	../NLP-python/NLPython/ch7/chatbot/customscripts/conversationengine.py	/^def borrowers_name_asking(namestr):$/;"	kind:function	line:70
+bow.py	../CMU-NLP/01-intro/bow.py	1;"	kind:file	line:1
+calc_scores	../CMU-NLP/01-intro/bow.py	/^def calc_scores(words):$/;"	kind:function	line:34
+calc_scores	../CMU-NLP/01-intro/cbow.py	/^def calc_scores(words):$/;"	kind:function	line:35
 candidates	../NLP-python/NLPython/ch4/4_6_spellingcorrection.py	/^def candidates(word):$/;"	kind:function	line:17
 card.py	../fluentPython/code/card.py	1;"	kind:file	line:1
+cbow.py	../CMU-NLP/01-intro/cbow.py	1;"	kind:file	line:1
 cell	../machine-learning/PyTorchZeroToAll/12_1_rnn_basics.py	/^cell = nn.RNN(input_size=4, hidden_size=2, batch_first=True)$/;"	kind:variable	line:12
 cg	../NLP-python/NLPython/ch4/4_1_processrawtext.py	/^from nltk.corpus import gutenberg as cg$/;"	kind:namespace	line:2
 classification_report	../NLP-python/NLPython/ch8/sentimentanalysis/sentimentanalysis_NB.py	/^from sklearn.metrics import classification_report$/;"	kind:namespace	line:10
@@ -320,6 +333,7 @@ collections	../fluentPython/code/card.py	/^import collections$/;"	kind:namespace
 combination	../algorithm/combinations.py	/^def combination(n, lst, combos=[]):$/;"	kind:function	line:1
 combinations.py	../algorithm/combinations.py	1;"	kind:file	line:1
 compute_error_for_line_given_points	../NLP-python/NLPython/ch9/gradientdescentexample/gradient_descent_example.py	/^def compute_error_for_line_given_points(b, m, points):$/;"	kind:function	line:10
+compute_error_for_line_given_points	../the_math_intelligence/Intro_to_the_Math_of_intelligence/demo.py	/^def compute_error_for_line_given_points(b, m, points):$/;"	kind:function	line:8
 conversation_list_history	../NLP-python/NLPython/ch7/chatbot/flaskengin.py	/^conversation_list_history = []$/;"	kind:variable	line:28
 conversationengine.py	../NLP-python/NLPython/ch7/chatbot/customscripts/conversationengine.py	1;"	kind:file	line:1
 corpus	../NLP-python/NLPython/ch6/gloveexample.py	/^corpus = Corpus()$/;"	kind:variable	line:12
@@ -365,10 +379,15 @@ decoder	../machine-learning/PyTorchZeroToAll/12_6_char_rnn.py	/^    decoder = RN
 decoder	../machine-learning/PyTorchZeroToAll/13_1_seq2seq.py	/^decoder = sm.DecoderRNN(HIDDEN_SIZE, N_CHARS, N_LAYERS)$/;"	kind:variable	line:93
 decoder	../machine-learning/PyTorchZeroToAll/13_2_seq2seq_att.py	/^    decoder = sm.AttnDecoderRNN(HIDDEN_SIZE, N_CHARS, N_LAYERS)$/;"	kind:variable	line:111
 decoder_optimizer	../machine-learning/PyTorchZeroToAll/12_6_char_rnn.py	/^    decoder_optimizer = torch.optim.Adam(decoder.parameters(), lr=0.001)$/;"	kind:variable	line:113
+defaultdict	../CMU-NLP/01-intro/bow.py	/^from collections import defaultdict$/;"	kind:namespace	line:1
+defaultdict	../CMU-NLP/01-intro/cbow.py	/^from collections import defaultdict$/;"	kind:namespace	line:1
 defaultdict	../NLP-python/NLPython/ch3/3_3_parsingtree.py	/^from collections import defaultdict$/;"	kind:namespace	line:8
 definegrammar_pasrereult	../NLP-python/NLPython/ch3/3_3_parsingtree.py	/^def definegrammar_pasrereult():$/;"	kind:function	line:11
 defualt_error	../NLP-python/NLPython/ch7/chatbot/customscripts/conversationengine.py	/^defualt_error = ["I can't do that for you.", "To keep going say hi to me."]$/;"	kind:variable	line:16
 defualt_missing_data_error	../NLP-python/NLPython/ch7/chatbot/customscripts/conversationengine.py	/^defualt_missing_data_error = [$/;"	kind:variable	line:14
+demo.py	../the_math_intelligence/Intro_to_the_Math_of_intelligence/demo.py	1;"	kind:file	line:1
+dev	../CMU-NLP/01-intro/bow.py	/^dev = list(read_dataset('..\/data\/classes\/test.txt'))$/;"	kind:variable	line:21
+dev	../CMU-NLP/01-intro/cbow.py	/^dev = list(read_dataset('..\/data\/classes\/test.txt'))$/;"	kind:variable	line:22
 df	../NLP-python/NLPython/ch5/onehotencodingdemo/OHEdemo.py	/^df = pd.DataFrame([['rick','young'],['phil','old']],columns=['name','age-group'])$/;"	kind:variable	line:5
 df	../NLP-python/NLPython/ch8/Own_Logistic_Regression/logistic.py	/^df = pd.read_csv("data.csv", header=0)$/;"	kind:variable	line:24
 division	../NLP-python/NLPython/ch5/TFIDFdemo/tfidf_textblob.py	/^from __future__ import division$/;"	kind:namespace	line:1
@@ -382,6 +401,8 @@ download	../machine-learning/PyTorchZeroToAll/09_2_softmax_mnist.py	/^          
 download	../machine-learning/PyTorchZeroToAll/10_1_cnn_mnist.py	/^                               download=True)$/;"	kind:variable	line:18
 download	../machine-learning/PyTorchZeroToAll/11_1_toy_inception_mnist.py	/^                               download=True)$/;"	kind:variable	line:18
 draw_parser_tree	../NLP-python/NLPython/ch3/3_3_parsingtree.py	/^def draw_parser_tree():$/;"	kind:function	line:29
+dy	../CMU-NLP/01-intro/bow.py	/^import dynet as dy$/;"	kind:namespace	line:4
+dy	../CMU-NLP/01-intro/cbow.py	/^import dynet as dy$/;"	kind:namespace	line:4
 e	../machine-learning/PyTorchZeroToAll/12_1_rnn_basics.py	/^e = [0, 1, 0, 0]$/;"	kind:variable	line:7
 edits1	../NLP-python/NLPython/ch4/4_6_spellingcorrection.py	/^def edits1(word):$/;"	kind:function	line:25
 edits2	../NLP-python/NLPython/ch4/4_6_spellingcorrection.py	/^def edits2(word):$/;"	kind:function	line:35
@@ -393,6 +414,8 @@ encoder	../machine-learning/PyTorchZeroToAll/13_1_seq2seq.py	/^encoder = sm.Enco
 encoder	../machine-learning/PyTorchZeroToAll/13_2_seq2seq_att.py	/^    encoder = sm.EncoderRNN(N_CHARS, HIDDEN_SIZE, N_LAYERS)$/;"	kind:variable	line:110
 encoding	../NLP-python/NLPython/ch5/NERtooldemo/stanfordnerdemo.py	/^					   encoding='utf-8')$/;"	kind:variable	line:7
 et	../algorithm/min_id.py	/^et = time.time()$/;"	kind:variable	line:28
+euclidian	../the_math_intelligence/k_means_clustering/kmeans.py	/^def euclidian(a, b):$/;"	kind:function	line:10
+execute	../the_math_intelligence/k_means_clustering/kmeans.py	/^def execute():$/;"	kind:function	line:78
 exp	../NLP-python/NLPython/ch9/make_neural_net/singlelayerANN.py	/^from numpy import exp, array, random, dot$/;"	kind:namespace	line:4
 feature_array	../NLP-python/NLPython/ch5/TFIDFdemo/tfidf_scikitlearn.py	/^feature_array = np.array(tfidf.get_feature_names())$/;"	kind:variable	line:84
 feature_names	../NLP-python/NLPython/ch5/TFIDFdemo/tfidf_scikitlearn.py	/^feature_names = tfidf.get_feature_names()$/;"	kind:variable	line:79
@@ -443,6 +466,7 @@ gloveexample.py	../NLP-python/NLPython/ch6/gloveexample.py	1;"	kind:file	line:1
 gradient	../machine-learning/PyTorchZeroToAll/02_manual_gradient.py	/^def gradient(x, y):  # d_loss\/d_w$/;"	kind:function	line:20
 gradient_descent_example.py	../NLP-python/NLPython/ch9/gradientdescentexample/gradient_descent_example.py	1;"	kind:file	line:1
 gradient_descent_runner	../NLP-python/NLPython/ch9/gradientdescentexample/gradient_descent_example.py	/^def gradient_descent_runner(points, starting_b, starting_m, learning_rate, num_iterations):$/;"	kind:function	line:37
+gradient_descent_runner	../the_math_intelligence/Intro_to_the_Math_of_intelligence/demo.py	/^def gradient_descent_runner(points, starting_b, starting_m, learning_rate, num_iterations):$/;"	kind:function	line:29
 gzip	../machine-learning/PyTorchZeroToAll/name_dataset.py	/^import gzip$/;"	kind:namespace	line:9
 gzip	../machine-learning/PyTorchZeroToAll/text_loader.py	/^import gzip$/;"	kind:namespace	line:4
 h	../machine-learning/PyTorchZeroToAll/12_1_rnn_basics.py	/^h = [1, 0, 0, 0]$/;"	kind:variable	line:6
@@ -491,6 +515,8 @@ json	../NLP-python/NLPython/ch7/chatbot/flaskengin.py	/^import json$/;"	kind:nam
 json_util	../NLP-python/NLPython/ch7/chatbot/customscripts/conversationengine.py	/^from bson import json_util$/;"	kind:namespace	line:4
 jsonify	../NLP-python/NLPython/ch7/chatbot/flaskengin.py	/^from flask import Flask, request, jsonify, Response$/;"	kind:namespace	line:1
 kingqueenexample.py	../NLP-python/NLPython/ch6/kingqueenexample.py	1;"	kind:file	line:1
+kmeans	../the_math_intelligence/k_means_clustering/kmeans.py	/^def kmeans(k, epsilon=0, distance='euclidian'):$/;"	kind:function	line:36
+kmeans.py	../the_math_intelligence/k_means_clustering/kmeans.py	1;"	kind:file	line:1
 known	../NLP-python/NLPython/ch4/4_6_spellingcorrection.py	/^def known(words):$/;"	kind:function	line:21
 l	../machine-learning/PyTorchZeroToAll/01_basics.py	/^        l = loss(x_val, y_val)$/;"	kind:variable	line:27
 l	../machine-learning/PyTorchZeroToAll/03_auto_gradient.py	/^        l = loss(x_val, y_val)$/;"	kind:variable	line:29
@@ -505,6 +531,7 @@ labels	../machine-learning/PyTorchZeroToAll/12_3_hello_rnn_seq.py	/^labels = Var
 labels	../machine-learning/PyTorchZeroToAll/12_4_hello_rnn_emb.py	/^labels = Variable(torch.LongTensor(y_data))$/;"	kind:variable	line:17
 lammatizer	../NLP-python/NLPython/ch4/4_2_rawtext_Stemmers.py	/^def lammatizer():$/;"	kind:function	line:14
 legend	../NLP-python/NLPython/ch8/Own_Logistic_Regression/logistic.py	/^from pylab import scatter, show, legend, xlabel, ylabel$/;"	kind:namespace	line:19
+load_dataset	../the_math_intelligence/k_means_clustering/kmeans.py	/^def load_dataset(name):$/;"	kind:function	line:6
 loadtxt	../NLP-python/NLPython/ch8/Own_Logistic_Regression/logistic.py	/^from numpy import loadtxt, where$/;"	kind:namespace	line:18
 loan_ammount_asking	../NLP-python/NLPython/ch7/chatbot/customscripts/conversationengine.py	/^def loan_ammount_asking(loanammount):$/;"	kind:function	line:233
 loan_ammount_asking_coversation	../NLP-python/NLPython/ch7/chatbot/flaskengin.py	/^def loan_ammount_asking_coversation():$/;"	kind:function	line:185
@@ -534,6 +561,8 @@ math	../NLP-python/NLPython/ch5/TFIDFdemo/tfidf_textblob.py	/^import math$/;"	ki
 math	../NLP-python/NLPython/ch8/Own_Logistic_Regression/logistic.py	/^import math$/;"	kind:namespace	line:11
 math	../machine-learning/PyTorchZeroToAll/12_5_rnn_classify.py	/^import math$/;"	kind:namespace	line:3
 matplotlib	../machine-learning/PyTorchZeroToAll/01_basics.py	/^import matplotlib.pyplot as plt$/;"	kind:namespace	line:2
+matplotlib	../the_math_intelligence/k_means_clustering/kmeans.py	/^import matplotlib.animation as animation$/;"	kind:namespace	line:3
+matplotlib	../the_math_intelligence/k_means_clustering/kmeans.py	/^import matplotlib.pyplot as plt$/;"	kind:namespace	line:2
 middlewares.py	../NLP-python/NLPython/web_scraping_test/web_scraping_test/middlewares.py	1;"	kind:file	line:1
 minId	../algorithm/min_id.py	/^def minId(lst):$/;"	kind:function	line:23
 minId	../algorithm/min_id.py	/^def minId(lst):$/;"	kind:function	line:7
@@ -543,6 +572,8 @@ min_id.py	../algorithm/min_id.py	1;"	kind:file	line:1
 min_max_scaler	../NLP-python/NLPython/ch8/Own_Logistic_Regression/logistic.py	/^min_max_scaler = preprocessing.MinMaxScaler(feature_range=(-1,1))$/;"	kind:variable	line:23
 mobilenumber_asking	../NLP-python/NLPython/ch7/chatbot/customscripts/conversationengine.py	/^def mobilenumber_asking(mobileno):$/;"	kind:function	line:165
 mobilenumber_asking	../NLP-python/NLPython/ch7/chatbot/flaskengin.py	/^def mobilenumber_asking():$/;"	kind:function	line:156
+model	../CMU-NLP/01-intro/bow.py	/^model = dy.Model()$/;"	kind:variable	line:26
+model	../CMU-NLP/01-intro/cbow.py	/^model = dy.Model()$/;"	kind:variable	line:26
 model	../NLP-python/NLPython/ch6/doc2vecexample.py	/^model = g.Doc2Vec(docs, size=vector_size, window=window_size, min_count=min_count, sample=sampling_threshold,$/;"	kind:variable	line:32
 model	../NLP-python/NLPython/ch6/doc2vecexample.py	/^model="\/home\/jalaj\/PycharmProjects\/NLPython\/NLPython\/ch6\/doc2vecdata\/model.bin"$/;"	kind:variable	line:43
 model	../machine-learning/PyTorchZeroToAll/05_linear_regression.py	/^model = Model()$/;"	kind:variable	line:28
@@ -558,6 +589,7 @@ models	../NLP-python/NLPython/ch6/kingqueenexample.py	/^from gensim import model
 models	../NLP-python/NLPython/ch6/stopwordfacts.py	/^from gensim import models$/;"	kind:namespace	line:1
 mongo	../NLP-python/NLPython/ch7/chatbot/flaskengin.py	/^mongo = PyMongo(app)$/;"	kind:variable	line:16
 mse_list	../machine-learning/PyTorchZeroToAll/01_basics.py	/^mse_list = []$/;"	kind:variable	line:20
+my_loss	../CMU-NLP/01-intro/bow.py	/^        my_loss = dy.pickneglogsoftmax(calc_scores(words), tag)$/;"	kind:variable	line:46
 n	../NLP-python/NLPython/ch5/TFIDFdemo/tfidf_scikitlearn.py	/^n = 3$/;"	kind:variable	line:86
 n	../NLP-python/NLPython/ch5/TFIDFdemo/tfidf_scikitlearn.py	/^n = 4$/;"	kind:variable	line:90
 n	../NLP-python/NLPython/ch5/n_gram/nltkngrmdemo.py	/^n = 4 # you can give 4, 5, 1 or any number less than sentences length$/;"	kind:variable	line:3
@@ -610,6 +642,8 @@ not_found	../NLP-python/NLPython/ch7/chatbot/flaskengin.py	/^def not_found(error
 now_india	../NLP-python/NLPython/ch7/chatbot/flaskengin.py	/^now_india = now_utc.astimezone(timezone('Asia\/Kolkata'))$/;"	kind:variable	line:32
 now_india_time	../NLP-python/NLPython/ch7/chatbot/flaskengin.py	/^now_india_time = now_india.strftime(fmt)$/;"	kind:variable	line:33
 now_utc	../NLP-python/NLPython/ch7/chatbot/flaskengin.py	/^now_utc = datetime.now(timezone('UTC'))$/;"	kind:variable	line:31
+np	../CMU-NLP/01-intro/bow.py	/^import numpy as np$/;"	kind:namespace	line:5
+np	../CMU-NLP/01-intro/cbow.py	/^import numpy as np$/;"	kind:namespace	line:5
 np	../NLP-python/NLPython/ch5/TFIDFdemo/tfidf_scikitlearn.py	/^import numpy as np$/;"	kind:namespace	line:4
 np	../NLP-python/NLPython/ch5/bagofwordsdemo/BOWdemo.py	/^import numpy as np$/;"	kind:namespace	line:2
 np	../NLP-python/NLPython/ch8/Own_Logistic_Regression/logistic.py	/^import numpy as np$/;"	kind:namespace	line:12
@@ -623,7 +657,10 @@ np	../machine-learning/PyTorchZeroToAll/13_3_pack_pad.py	/^import numpy as np$/;
 np	../machine-learning/PyTorchZeroToAll/name_dataset.py	/^import numpy as np$/;"	kind:namespace	line:5
 np	../machine-learning/code/plt.py	/^import numpy as np$/;"	kind:namespace	line:1
 np	../pytorch/code/np-warm.py	/^import numpy as np$/;"	kind:namespace	line:2
+np	../the_math_intelligence/k_means_clustering/kmeans.py	/^import numpy as np$/;"	kind:namespace	line:1
 np-warm.py	../pytorch/code/np-warm.py	1;"	kind:file	line:1
+ntags	../CMU-NLP/01-intro/bow.py	/^ntags = len(t2i)$/;"	kind:variable	line:24
+ntags	../CMU-NLP/01-intro/cbow.py	/^ntags = len(t2i)$/;"	kind:variable	line:24
 num2words	../NLP-python/NLPython/ch7/chatbot/customscripts/conversationengine.py	/^from num2words import num2words$/;"	kind:namespace	line:5
 num_classes	../machine-learning/PyTorchZeroToAll/12_2_hello_rnn.py	/^num_classes = 5$/;"	kind:variable	line:26
 num_classes	../machine-learning/PyTorchZeroToAll/12_3_hello_rnn_seq.py	/^num_classes = 5$/;"	kind:variable	line:26
@@ -633,6 +670,8 @@ num_layers	../machine-learning/PyTorchZeroToAll/12_3_hello_rnn_seq.py	/^num_laye
 num_layers	../machine-learning/PyTorchZeroToAll/12_4_hello_rnn_emb.py	/^num_layers = 1  # one-layer rnn$/;"	kind:variable	line:25
 num_workers	../machine-learning/PyTorchZeroToAll/13_1_seq2seq.py	/^                          num_workers=2)$/;"	kind:variable	line:109
 num_workers	../machine-learning/PyTorchZeroToAll/13_2_seq2seq_att.py	/^                              num_workers=2)$/;"	kind:variable	line:127
+nwords	../CMU-NLP/01-intro/bow.py	/^nwords = len(w2i)$/;"	kind:variable	line:23
+nwords	../CMU-NLP/01-intro/cbow.py	/^nwords = len(w2i)$/;"	kind:variable	line:23
 o	../machine-learning/PyTorchZeroToAll/12_1_rnn_basics.py	/^o = [0, 0, 0, 1]$/;"	kind:variable	line:9
 one	../machine-learning/PyTorchZeroToAll/12_1_rnn_basics.py	/^    one = one.view(1, 1, -1)$/;"	kind:variable	line:24
 one_hot_lookup	../machine-learning/PyTorchZeroToAll/12_2_hello_rnn.py	/^one_hot_lookup = [[1, 0, 0, 0, 0],  # 0$/;"	kind:variable	line:13
@@ -678,9 +717,11 @@ pd	../NLP-python/NLPython/ch8/Own_Logistic_Regression/logistic.py	/^import panda
 pd	../machine-learning/torchImages/pytorch-code/01.py	/^import pandas as pd$/;"	kind:namespace	line:2
 pickle	../NLP-python/NLPython/ch9/MT/Machine_Translation_GR_EN/data_utils.py	/^import cPickle as pickle$/;"	kind:namespace	line:9
 pipelines.py	../NLP-python/NLPython/web_scraping_test/web_scraping_test/pipelines.py	1;"	kind:file	line:1
+plot	../the_math_intelligence/k_means_clustering/kmeans.py	/^def plot(dataset, history_centroids, belongs_to):$/;"	kind:function	line:14
 plot_decision_regions	../machine-learning/code/plt.py	/^def plot_decision_regions(X, y, classifier, test_idx=None, resolution=0.02):$/;"	kind:function	line:4
 ployglotpostags.py	../NLP-python/NLPython/ch5/POStagdemo/ployglotpostags.py	1;"	kind:file	line:1
 plt	../machine-learning/PyTorchZeroToAll/01_basics.py	/^import matplotlib.pyplot as plt$/;"	kind:namespace	line:2
+plt	../the_math_intelligence/k_means_clustering/kmeans.py	/^import matplotlib.pyplot as plt$/;"	kind:namespace	line:2
 plt.py	../machine-learning/code/plt.py	1;"	kind:file	line:1
 polyglot	../NLP-python/NLPython/ch5/POStagdemo/ployglotpostags.py	/^import polyglot$/;"	kind:namespace	line:1
 polyglot_stem	../NLP-python/NLPython/ch3/3_1_wordsteam.py	/^def polyglot_stem():$/;"	kind:function	line:40
@@ -688,6 +729,7 @@ pos	../NLP-python/NLPython/ch8/Own_Logistic_Regression/logistic.py	/^pos = where
 pos_tag	../NLP-python/NLPython/ch5/CustomPOStagger/ownpostag.py	/^def pos_tag(sentence):$/;"	kind:function	line:76
 post_data_lead_create	../NLP-python/NLPython/ch7/chatbot/flaskengin.py	/^post_data_lead_create = {}$/;"	kind:variable	line:25
 pprint	../NLP-python/NLPython/ch5/CustomPOStagger/ownpostag.py	/^import pprint$/;"	kind:namespace	line:6
+predict	../CMU-NLP/01-intro/bow.py	/^        predict = np.argmax(scores)$/;"	kind:variable	line:57
 predict	../NLP-python/NLPython/ch9/make_neural_net/threelayersANN.py	/^    def predict(self, data):$/;"	kind:member	line:27
 preprocessing	../NLP-python/NLPython/ch8/Own_Logistic_Regression/logistic.py	/^from sklearn import preprocessing$/;"	kind:namespace	line:15
 pretrained_emb	../NLP-python/NLPython/ch6/doc2vecexample.py	/^pretrained_emb = "\/home\/jalaj\/PycharmProjects\/NLPython\/NLPython\/ch6\/doc2vecdata\/pretrained_word_embeddings.txt"$/;"	kind:variable	line:17
@@ -701,6 +743,8 @@ process_spider_output	../NLP-python/NLPython/web_scraping_test/web_scraping_test
 process_start_requests	../NLP-python/NLPython/web_scraping_test/web_scraping_test/middlewares.py	/^    def process_start_requests(start_requests, spider):$/;"	kind:member	line:46
 qualitative_features	../NLP-python/NLPython/ch5/onehotencodingdemo/OHEdemo.py	/^qualitative_features = ['country']$/;"	kind:variable	line:18
 randint	../algorithm/min_id.py	/^from random import randint$/;"	kind:namespace	line:2
+random	../CMU-NLP/01-intro/bow.py	/^import random$/;"	kind:namespace	line:3
+random	../CMU-NLP/01-intro/cbow.py	/^import random$/;"	kind:namespace	line:3
 random	../NLP-python/NLPython/ch7/chatbot/customscripts/conversationengine.py	/^import random$/;"	kind:namespace	line:1
 random	../NLP-python/NLPython/ch9/make_neural_net/singlelayerANN.py	/^from numpy import exp, array, random, dot$/;"	kind:namespace	line:4
 random	../algorithm/min_id.py	/^import random$/;"	kind:namespace	line:3
@@ -709,6 +753,8 @@ re	../NLP-python/NLPython/ch4/4_5_regualrexpression.py	/^import re$/;"	kind:name
 re	../NLP-python/NLPython/ch4/4_6_spellingcorrection.py	/^import re$/;"	kind:namespace	line:1
 re	../NLP-python/NLPython/ch7/7_2_basicpythonrule.py	/^import re$/;"	kind:namespace	line:1
 re	../NLP-python/NLPython/ch7/chatbot/customscripts/conversationengine.py	/^import sys, time, re$/;"	kind:namespace	line:3
+read_dataset	../CMU-NLP/01-intro/bow.py	/^def read_dataset(filename):$/;"	kind:function	line:12
+read_dataset	../CMU-NLP/01-intro/cbow.py	/^def read_dataset(filename):$/;"	kind:function	line:13
 read_dataset	../NLP-python/NLPython/ch9/MT/Machine_Translation_GR_EN/data_utils.py	/^def read_dataset(file_path):$/;"	kind:function	line:69
 read_sentences	../NLP-python/NLPython/ch9/MT/Machine_Translation_GR_EN/data_utils.py	/^def read_sentences(file_path):$/;"	kind:function	line:12
 readcorpus	../NLP-python/NLPython/ch4/4_1_processrawtext.py	/^def readcorpus():$/;"	kind:function	line:21
@@ -725,11 +771,13 @@ rnn	../machine-learning/PyTorchZeroToAll/12_3_hello_rnn_seq.py	/^rnn = RNN(num_c
 rulelogic	../NLP-python/NLPython/ch7/7_1_simplerule.py	/^def rulelogic(filecontent):$/;"	kind:function	line:9
 rulelogic	../NLP-python/NLPython/ch7/7_3_SVArule.py	/^def rulelogic(sentnece):$/;"	kind:function	line:7
 run	../NLP-python/NLPython/ch9/gradientdescentexample/gradient_descent_example.py	/^def run():$/;"	kind:function	line:45
+run	../the_math_intelligence/Intro_to_the_Math_of_intelligence/demo.py	/^def run():$/;"	kind:function	line:36
 sampling_threshold	../NLP-python/NLPython/ch6/doc2vecexample.py	/^sampling_threshold = 1e-5$/;"	kind:variable	line:10
 save_dataset	../NLP-python/NLPython/ch9/MT/Machine_Translation_GR_EN/data_utils.py	/^def save_dataset(file_path, obj):$/;"	kind:function	line:65
 saved_path	../NLP-python/NLPython/ch6/doc2vecexample.py	/^saved_path = "\/home\/jalaj\/PycharmProjects\/NLPython\/NLPython\/ch6\/doc2vecdata\/model.bin"$/;"	kind:variable	line:25
 savedatainfile	../NLP-python/NLPython/ch7/7_1_simplerule.py	/^def savedatainfile(filecontent):$/;"	kind:function	line:4
 scatter	../NLP-python/NLPython/ch8/Own_Logistic_Regression/logistic.py	/^from pylab import scatter, show, legend, xlabel, ylabel$/;"	kind:namespace	line:19
+scores	../CMU-NLP/01-intro/bow.py	/^        scores = calc_scores(words).npvalue()$/;"	kind:variable	line:56
 scpacyparserdemo.py	../NLP-python/NLPython/ch5/parserexample/scpacyparserdemo.py	1;"	kind:file	line:1
 scrapdata	../NLP-python/NLPython/ch7/7_1_simplerule.py	/^def scrapdata():$/;"	kind:function	line:22
 scrapy	../NLP-python/NLPython/web_scraping_test/web_scraping_test/items.py	/^import scrapy$/;"	kind:namespace	line:8
@@ -779,6 +827,7 @@ st_list_rawfile	../NLP-python/NLPython/ch4/4_1_processrawtext.py	/^    st_list_r
 stanford_parsing_result	../NLP-python/NLPython/ch3/3_3_parsingtree.py	/^def stanford_parsing_result():$/;"	kind:function	line:41
 stanfordnerdemo.py	../NLP-python/NLPython/ch5/NERtooldemo/stanfordnerdemo.py	1;"	kind:file	line:1
 stanfordparserdemo	../NLP-python/NLPython/ch5/parserexample/StanfordParserdemo.py	/^def stanfordparserdemo(sentnece):$/;"	kind:function	line:6
+start	../CMU-NLP/01-intro/bow.py	/^    start = time.time()$/;"	kind:variable	line:44
 start	../machine-learning/PyTorchZeroToAll/12_5_rnn_classify.py	/^    start = time.time()$/;"	kind:variable	line:200
 start_alpha	../NLP-python/NLPython/ch6/doc2vecexample.py	/^start_alpha=0.01$/;"	kind:variable	line:48
 start_converation_action	../NLP-python/NLPython/ch7/chatbot/customscripts/conversationengine.py	/^def start_converation_action(humanmessage):$/;"	kind:function	line:30
@@ -792,6 +841,7 @@ stemmer	../NLP-python/NLPython/ch5/TFIDFdemo/tfidf_scikitlearn.py	/^stemmer = Po
 stemmer_porter	../NLP-python/NLPython/ch3/3_1_wordsteam.py	/^def stemmer_porter():$/;"	kind:function	line:22
 stemmer_porter	../NLP-python/NLPython/ch4/4_2_rawtext_Stemmers.py	/^def stemmer_porter():$/;"	kind:function	line:9
 step_gradient	../NLP-python/NLPython/ch9/gradientdescentexample/gradient_descent_example.py	/^def step_gradient(b_current, m_current, points, learningRate):$/;"	kind:function	line:18
+step_gradient	../the_math_intelligence/Intro_to_the_Math_of_intelligence/demo.py	/^def step_gradient(b_current, m_current, points, learningRate):$/;"	kind:function	line:16
 stnfordpostagdemofunction	../NLP-python/NLPython/ch5/POStagdemo/snafordparserPOStags.py	/^def stnfordpostagdemofunction(text):$/;"	kind:function	line:5
 stopwordfacts.py	../NLP-python/NLPython/ch6/stopwordfacts.py	1;"	kind:file	line:1
 stopwordlist	../NLP-python/NLPython/ch4/4_3_stopwordremove.py	/^def stopwordlist():$/;"	kind:function	line:4
@@ -815,6 +865,8 @@ sys	../NLP-python/NLPython/ch7/chatbot/customscripts/conversationengine.py	/^imp
 sys	../NLP-python/NLPython/ch8/sentimentanalysis/sentimentanalysis_NB.py	/^import sys$/;"	kind:namespace	line:4
 sys	../NLP-python/NLPython/ch8/sentimentanalysis/sentimentanalysis_SVM.py	/^import sys$/;"	kind:namespace	line:4
 sys	../machine-learning/PyTorchZeroToAll/12_2_hello_rnn.py	/^import sys$/;"	kind:namespace	line:2
+t2i	../CMU-NLP/01-intro/bow.py	/^t2i = defaultdict(lambda: len(t2i))$/;"	kind:variable	line:8
+t2i	../CMU-NLP/01-intro/cbow.py	/^t2i = defaultdict(lambda: len(t2i))$/;"	kind:variable	line:9
 tagged_sentences	../NLP-python/NLPython/ch5/CustomPOStagger/ownpostag.py	/^tagged_sentences = nltk.corpus.treebank.tagged_sents()$/;"	kind:variable	line:12
 test	../fluentPython/code/card.py	/^    def test(self):$/;"	kind:member	line:20
 test	../machine-learning/PyTorchZeroToAll/09_2_softmax_mnist.py	/^def test():$/;"	kind:function	line:73
@@ -823,6 +875,7 @@ test	../machine-learning/PyTorchZeroToAll/11_1_toy_inception_mnist.py	/^def test
 test	../machine-learning/PyTorchZeroToAll/12_5_rnn_classify.py	/^def test(name=None):$/;"	kind:function	line:162
 test	../machine-learning/PyTorchZeroToAll/13_1_seq2seq.py	/^def test():$/;"	kind:function	line:17
 test	../machine-learning/PyTorchZeroToAll/13_2_seq2seq_att.py	/^def test():$/;"	kind:function	line:23
+test_correct	../CMU-NLP/01-intro/bow.py	/^    test_correct = 0.0$/;"	kind:variable	line:54
 test_dataset	../machine-learning/PyTorchZeroToAll/09_2_softmax_mnist.py	/^test_dataset = datasets.MNIST(root='.\/data\/',$/;"	kind:variable	line:19
 test_dataset	../machine-learning/PyTorchZeroToAll/10_1_cnn_mnist.py	/^test_dataset = datasets.MNIST(root='.\/data\/',$/;"	kind:variable	line:20
 test_dataset	../machine-learning/PyTorchZeroToAll/11_1_toy_inception_mnist.py	/^test_dataset = datasets.MNIST(root='.\/data\/',$/;"	kind:variable	line:20
@@ -863,6 +916,8 @@ tfidf_textblob.py	../NLP-python/NLPython/ch5/TFIDFdemo/tfidf_textblob.py	1;"	kin
 tfs	../NLP-python/NLPython/ch5/TFIDFdemo/tfidf_scikitlearn.py	/^tfs = tfidf.fit_transform(token_dict.values())$/;"	kind:variable	line:72
 think	../NLP-python/NLPython/ch9/make_neural_net/singlelayerANN.py	/^    def think(self, inputs):$/;"	kind:member	line:50
 threelayersANN.py	../NLP-python/NLPython/ch9/make_neural_net/threelayersANN.py	1;"	kind:file	line:1
+time	../CMU-NLP/01-intro/bow.py	/^import time$/;"	kind:namespace	line:2
+time	../CMU-NLP/01-intro/cbow.py	/^import time$/;"	kind:namespace	line:2
 time	../NLP-python/NLPython/ch7/chatbot/customscripts/conversationengine.py	/^import sys, time, re$/;"	kind:namespace	line:3
 time	../NLP-python/NLPython/ch8/sentimentanalysis/sentimentanalysis_NB.py	/^import time$/;"	kind:namespace	line:6
 time	../NLP-python/NLPython/ch8/sentimentanalysis/sentimentanalysis_SVM.py	/^import time$/;"	kind:namespace	line:6
@@ -924,6 +979,8 @@ torch	../machine-learning/PyTorchZeroToAll/name_dataset.py	/^import torch$/;"	ki
 torch	../machine-learning/PyTorchZeroToAll/seq2seq_models.py	/^import torch$/;"	kind:namespace	line:3
 torch	../machine-learning/PyTorchZeroToAll/seq2seq_models.py	/^import torch.nn as nn$/;"	kind:namespace	line:4
 torch	../machine-learning/PyTorchZeroToAll/seq2seq_models.py	/^import torch.nn.functional as F$/;"	kind:namespace	line:6
+train	../CMU-NLP/01-intro/bow.py	/^train = list(read_dataset('..\/data\/classes\/train.txt'))$/;"	kind:variable	line:19
+train	../CMU-NLP/01-intro/cbow.py	/^train = list(read_dataset('..\/data\/classes\/train.txt'))$/;"	kind:variable	line:20
 train	../NLP-python/NLPython/ch9/make_neural_net/singlelayerANN.py	/^    def train(self, training_set_inputs, training_set_outputs, number_of_training_iterations):$/;"	kind:member	line:32
 train	../NLP-python/NLPython/ch9/make_neural_net/threelayersANN.py	/^    def train(self, inputs, targets, num_epochs, learning_rate=1, stop_accuracy=1e-5):$/;"	kind:member	line:74
 train	../machine-learning/PyTorchZeroToAll/09_2_softmax_mnist.py	/^                               train=True,$/;"	kind:variable	line:15
@@ -956,9 +1013,12 @@ train_loader	../machine-learning/PyTorchZeroToAll/13_1_seq2seq.py	/^train_loader
 train_loader	../machine-learning/PyTorchZeroToAll/13_2_seq2seq_att.py	/^    train_loader = DataLoader(dataset=TextDataset(),$/;"	kind:variable	line:124
 train_loader	../machine-learning/PyTorchZeroToAll/name_dataset.py	/^    train_loader = DataLoader(dataset=dataset,$/;"	kind:variable	line:50
 train_loader	../machine-learning/PyTorchZeroToAll/text_loader.py	/^    train_loader = DataLoader(dataset=dataset,$/;"	kind:variable	line:29
+train_loss	../CMU-NLP/01-intro/bow.py	/^    train_loss = 0.0$/;"	kind:variable	line:43
 train_loss	../machine-learning/PyTorchZeroToAll/13_1_seq2seq.py	/^        train_loss = train(srcs[0], targets[0])  # Batch is 1$/;"	kind:variable	line:115
 train_loss	../machine-learning/PyTorchZeroToAll/13_2_seq2seq_att.py	/^            train_loss = train(srcs[0], targets[0])$/;"	kind:variable	line:133
 train_test_split	../NLP-python/NLPython/ch8/Own_Logistic_Regression/logistic.py	/^from sklearn.cross_validation import train_test_split$/;"	kind:namespace	line:17
+trainer	../CMU-NLP/01-intro/bow.py	/^trainer = dy.AdamTrainer(model)$/;"	kind:variable	line:27
+trainer	../CMU-NLP/01-intro/cbow.py	/^trainer = dy.AdamTrainer(model)$/;"	kind:variable	line:27
 training_data	../NLP-python/NLPython/ch9/make_neural_net/threelayersANN.py	/^    training_data = np.asarray([[0, 0], [0, 1], [1, 0], [1, 1]]).reshape(4, 2, 1)$/;"	kind:variable	line:112
 training_labels	../NLP-python/NLPython/ch9/make_neural_net/threelayersANN.py	/^    training_labels = np.asarray([[0], [1], [1], [0]])$/;"	kind:variable	line:113
 training_sentences	../NLP-python/NLPython/ch5/CustomPOStagger/ownpostag.py	/^training_sentences = tagged_sentences[:cutoff]$/;"	kind:variable	line:54
@@ -992,6 +1052,10 @@ w	../NLP-python/NLPython/ch6/kingqueenexample.py	/^w = models.Word2Vec.load_word
 w	../NLP-python/NLPython/ch6/stopwordfacts.py	/^w = models.Word2Vec.load_word2vec_format('\/home\/jalaj\/Downloads\/GoogleNews-vectors-negative300.bin', binary=True)$/;"	kind:variable	line:2
 w	../machine-learning/PyTorchZeroToAll/02_manual_gradient.py	/^w = 1.0  # a random guess: random value$/;"	kind:variable	line:4
 w	../machine-learning/PyTorchZeroToAll/03_auto_gradient.py	/^w = Variable(torch.Tensor([1.0]),  requires_grad=True)  # Any random value$/;"	kind:variable	line:8
+w2i	../CMU-NLP/01-intro/bow.py	/^w2i = defaultdict(lambda: UNK, w2i)$/;"	kind:variable	line:20
+w2i	../CMU-NLP/01-intro/bow.py	/^w2i = defaultdict(lambda: len(w2i))$/;"	kind:variable	line:7
+w2i	../CMU-NLP/01-intro/cbow.py	/^w2i = defaultdict(lambda: UNK, w2i)$/;"	kind:variable	line:21
+w2i	../CMU-NLP/01-intro/cbow.py	/^w2i = defaultdict(lambda: len(w2i))$/;"	kind:variable	line:8
 w_list	../machine-learning/PyTorchZeroToAll/01_basics.py	/^w_list = []$/;"	kind:variable	line:19
 welcomemsg_chat	../NLP-python/NLPython/ch7/chatbot/flaskengin.py	/^def welcomemsg_chat():$/;"	kind:function	line:91
 where	../NLP-python/NLPython/ch8/Own_Logistic_Regression/logistic.py	/^from numpy import loadtxt, where$/;"	kind:namespace	line:18
