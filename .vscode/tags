@@ -168,7 +168,7 @@ TfidfVectorizer	../NLP-python/NLPython/ch8/sentimentanalysis/sentimentanalysis_N
 TfidfVectorizer	../NLP-python/NLPython/ch8/sentimentanalysis/sentimentanalysis_SVM.py	/^from sklearn.feature_extraction.text import TfidfVectorizer$/;"	kind:namespace	line:8
 Tree	../NLP-python/NLPython/ch5/parserexample/StanfordParserdemo.py	/^from nltk.tree import Tree$/;"	kind:namespace	line:2
 Tree	../NLP-python/NLPython/ch7/7_3_SVArule.py	/^from nltk.tree import Tree$/;"	kind:namespace	line:2
-Variable	../machine-learning/PyTorchZeroToAll/03_auto_gradient.py	/^from torch.autograd import Variable$/;"	kind:namespace	line:2
+Variable	../machine-learning/PyTorchZeroToAll/03_auto_gradient.py	/^from torch.autograd import Variable$/;"	kind:namespace	line:3
 Variable	../machine-learning/PyTorchZeroToAll/05_linear_regression.py	/^from torch.autograd import Variable$/;"	kind:namespace	line:3
 Variable	../machine-learning/PyTorchZeroToAll/06_logistic_regression.py	/^from torch.autograd import Variable$/;"	kind:namespace	line:3
 Variable	../machine-learning/PyTorchZeroToAll/07_diabets_logistic.py	/^from torch.autograd import Variable$/;"	kind:namespace	line:3
@@ -204,6 +204,7 @@ X	../NLP-python/NLPython/ch5/onehotencodingdemo/OHEdemo.py	/^X = pd.DataFrame({'
 X	../NLP-python/NLPython/ch8/Own_Logistic_Regression/logistic.py	/^X = df[["grade1","grade2"]]$/;"	kind:variable	line:33
 X	../NLP-python/NLPython/ch8/Own_Logistic_Regression/logistic.py	/^X = min_max_scaler.fit_transform(X)$/;"	kind:variable	line:35
 X	../NLP-python/NLPython/ch8/Own_Logistic_Regression/logistic.py	/^X = np.array(X)$/;"	kind:variable	line:34
+X	../pytorch/code/np-warm.py	/^X = np.array([1, 2, 3])$/;"	kind:variable	line:4
 X_qual	../NLP-python/NLPython/ch5/onehotencodingdemo/OHEdemo.py	/^X_qual = v.fit_transform(X[qualitative_features].to_dict('records'))$/;"	kind:variable	line:19
 Y	../NLP-python/NLPython/ch8/Own_Logistic_Regression/logistic.py	/^Y = df["label"].map(lambda x: float(x.rstrip(';')))$/;"	kind:variable	line:36
 Y	../NLP-python/NLPython/ch8/Own_Logistic_Regression/logistic.py	/^Y = np.array(Y)$/;"	kind:variable	line:37
@@ -408,7 +409,7 @@ flatten	../machine-learning/PyTorchZeroToAll/13_3_pack_pad.py	/^def flatten(l):$
 fmt	../NLP-python/NLPython/ch7/chatbot/flaskengin.py	/^fmt = "%Y-%m-%d %H:%M:%S %Z%z"$/;"	kind:variable	line:30
 forward	../machine-learning/PyTorchZeroToAll/01_basics.py	/^def forward(x):$/;"	kind:function	line:9
 forward	../machine-learning/PyTorchZeroToAll/02_manual_gradient.py	/^def forward(x):$/;"	kind:function	line:9
-forward	../machine-learning/PyTorchZeroToAll/03_auto_gradient.py	/^def forward(x):$/;"	kind:function	line:12
+forward	../machine-learning/PyTorchZeroToAll/03_auto_gradient.py	/^def forward(x):$/;"	kind:function	line:13
 forward	../machine-learning/PyTorchZeroToAll/05_linear_regression.py	/^    def forward(self, x):$/;"	kind:member	line:18
 forward	../machine-learning/PyTorchZeroToAll/06_logistic_regression.py	/^    def forward(self, x):$/;"	kind:member	line:19
 forward	../machine-learning/PyTorchZeroToAll/07_diabets_logistic.py	/^    def forward(self, x):$/;"	kind:member	line:27
@@ -492,7 +493,7 @@ jsonify	../NLP-python/NLPython/ch7/chatbot/flaskengin.py	/^from flask import Fla
 kingqueenexample.py	../NLP-python/NLPython/ch6/kingqueenexample.py	1;"	kind:file	line:1
 known	../NLP-python/NLPython/ch4/4_6_spellingcorrection.py	/^def known(words):$/;"	kind:function	line:21
 l	../machine-learning/PyTorchZeroToAll/01_basics.py	/^        l = loss(x_val, y_val)$/;"	kind:variable	line:27
-l	../machine-learning/PyTorchZeroToAll/03_auto_gradient.py	/^        l = loss(x_val, y_val)$/;"	kind:variable	line:28
+l	../machine-learning/PyTorchZeroToAll/03_auto_gradient.py	/^        l = loss(x_val, y_val)$/;"	kind:variable	line:29
 l	../machine-learning/PyTorchZeroToAll/12_1_rnn_basics.py	/^l = [0, 0, 1, 0]$/;"	kind:variable	line:8
 l1	../machine-learning/PyTorchZeroToAll/09_01_softmax_loss.py	/^l1 = loss(Y_pred1, Y)$/;"	kind:variable	line:35
 l1	../machine-learning/PyTorchZeroToAll/09_01_softmax_loss.py	/^l1 = loss(Y_pred1, Y)$/;"	kind:variable	line:59
@@ -514,7 +515,7 @@ logging	../NLP-python/NLPython/ch6/doc2vecexample.py	/^import logging$/;"	kind:n
 logistic.py	../NLP-python/NLPython/ch8/Own_Logistic_Regression/logistic.py	1;"	kind:file	line:1
 loss	../machine-learning/PyTorchZeroToAll/01_basics.py	/^def loss(x, y):$/;"	kind:function	line:14
 loss	../machine-learning/PyTorchZeroToAll/02_manual_gradient.py	/^def loss(x, y):$/;"	kind:function	line:14
-loss	../machine-learning/PyTorchZeroToAll/03_auto_gradient.py	/^def loss(x, y):$/;"	kind:function	line:18
+loss	../machine-learning/PyTorchZeroToAll/03_auto_gradient.py	/^def loss(x, y):$/;"	kind:function	line:19
 loss	../machine-learning/PyTorchZeroToAll/05_linear_regression.py	/^    loss = criterion(y_pred, y_data)$/;"	kind:variable	line:43
 loss	../machine-learning/PyTorchZeroToAll/06_logistic_regression.py	/^    loss = criterion(y_pred, y_data)$/;"	kind:variable	line:43
 loss	../machine-learning/PyTorchZeroToAll/07_diabets_logistic.py	/^    loss = criterion(y_pred, y_data)$/;"	kind:variable	line:54
@@ -621,6 +622,8 @@ np	../machine-learning/PyTorchZeroToAll/09_01_softmax_loss.py	/^import numpy as 
 np	../machine-learning/PyTorchZeroToAll/13_3_pack_pad.py	/^import numpy as np$/;"	kind:namespace	line:9
 np	../machine-learning/PyTorchZeroToAll/name_dataset.py	/^import numpy as np$/;"	kind:namespace	line:5
 np	../machine-learning/code/plt.py	/^import numpy as np$/;"	kind:namespace	line:1
+np	../pytorch/code/np-warm.py	/^import numpy as np$/;"	kind:namespace	line:2
+np-warm.py	../pytorch/code/np-warm.py	1;"	kind:file	line:1
 num2words	../NLP-python/NLPython/ch7/chatbot/customscripts/conversationengine.py	/^from num2words import num2words$/;"	kind:namespace	line:5
 num_classes	../machine-learning/PyTorchZeroToAll/12_2_hello_rnn.py	/^num_classes = 5$/;"	kind:variable	line:26
 num_classes	../machine-learning/PyTorchZeroToAll/12_3_hello_rnn_seq.py	/^num_classes = 5$/;"	kind:variable	line:26
@@ -672,6 +675,7 @@ parser	../NLP-python/NLPython/ch5/parserexample/scpacyparserdemo.py	/^parser = E
 path	../NLP-python/NLPython/ch5/TFIDFdemo/tfidf_scikitlearn.py	/^path = '\/home\/jalaj\/PycharmProjects\/NLPython\/NLPython\/ch5\/TFIDFdemo\/shakes'$/;"	kind:variable	line:43
 pd	../NLP-python/NLPython/ch5/onehotencodingdemo/OHEdemo.py	/^import pandas as pd$/;"	kind:namespace	line:1
 pd	../NLP-python/NLPython/ch8/Own_Logistic_Regression/logistic.py	/^import pandas as pd$/;"	kind:namespace	line:13
+pd	../machine-learning/torchImages/pytorch-code/01.py	/^import pandas as pd$/;"	kind:namespace	line:2
 pickle	../NLP-python/NLPython/ch9/MT/Machine_Translation_GR_EN/data_utils.py	/^import cPickle as pickle$/;"	kind:namespace	line:9
 pipelines.py	../NLP-python/NLPython/web_scraping_test/web_scraping_test/pipelines.py	1;"	kind:file	line:1
 plot_decision_regions	../machine-learning/code/plt.py	/^def plot_decision_regions(X, y, classifier, test_idx=None, resolution=0.02):$/;"	kind:function	line:4
@@ -874,7 +878,7 @@ tokens	../NLP-python/NLPython/ch5/TFIDFdemo/tfidf_scikitlearn.py	/^tokens = get_
 tokens	../NLP-python/NLPython/ch5/TFIDFdemo/tfidf_scikitlearn.py	/^tokens = get_tokens()$/;"	kind:variable	line:27
 top_n	../NLP-python/NLPython/ch5/TFIDFdemo/tfidf_scikitlearn.py	/^top_n = feature_array[tfidf_sorting][:n]$/;"	kind:variable	line:87
 top_n	../NLP-python/NLPython/ch5/TFIDFdemo/tfidf_scikitlearn.py	/^top_n = feature_array[tfidf_sorting][:n]$/;"	kind:variable	line:91
-torch	../machine-learning/PyTorchZeroToAll/03_auto_gradient.py	/^import torch$/;"	kind:namespace	line:1
+torch	../machine-learning/PyTorchZeroToAll/03_auto_gradient.py	/^import torch$/;"	kind:namespace	line:2
 torch	../machine-learning/PyTorchZeroToAll/05_linear_regression.py	/^import torch$/;"	kind:namespace	line:2
 torch	../machine-learning/PyTorchZeroToAll/06_logistic_regression.py	/^import torch$/;"	kind:namespace	line:2
 torch	../machine-learning/PyTorchZeroToAll/06_logistic_regression.py	/^import torch.nn.functional as F$/;"	kind:namespace	line:4
@@ -987,7 +991,7 @@ vocab	../machine-learning/PyTorchZeroToAll/13_3_pack_pad.py	/^vocab = ['<pad>'] 
 w	../NLP-python/NLPython/ch6/kingqueenexample.py	/^w = models.Word2Vec.load_word2vec_format('\/home\/jalaj\/Downloads\/GoogleNews-vectors-negative300.bin', binary=True)$/;"	kind:variable	line:3
 w	../NLP-python/NLPython/ch6/stopwordfacts.py	/^w = models.Word2Vec.load_word2vec_format('\/home\/jalaj\/Downloads\/GoogleNews-vectors-negative300.bin', binary=True)$/;"	kind:variable	line:2
 w	../machine-learning/PyTorchZeroToAll/02_manual_gradient.py	/^w = 1.0  # a random guess: random value$/;"	kind:variable	line:4
-w	../machine-learning/PyTorchZeroToAll/03_auto_gradient.py	/^w = Variable(torch.Tensor([1.0]),  requires_grad=True)  # Any random value$/;"	kind:variable	line:7
+w	../machine-learning/PyTorchZeroToAll/03_auto_gradient.py	/^w = Variable(torch.Tensor([1.0]),  requires_grad=True)  # Any random value$/;"	kind:variable	line:8
 w_list	../machine-learning/PyTorchZeroToAll/01_basics.py	/^w_list = []$/;"	kind:variable	line:19
 welcomemsg_chat	../NLP-python/NLPython/ch7/chatbot/flaskengin.py	/^def welcomemsg_chat():$/;"	kind:function	line:91
 where	../NLP-python/NLPython/ch8/Own_Logistic_Regression/logistic.py	/^from numpy import loadtxt, where$/;"	kind:namespace	line:18
@@ -1010,7 +1014,7 @@ worker_count	../NLP-python/NLPython/ch6/doc2vecexample.py	/^worker_count = 1  # 
 x	../NLP-python/NLPython/ch8/Own_Logistic_Regression/logistic.py	/^x = df["label"].map(lambda x: float(x.rstrip(';')))$/;"	kind:variable	line:29
 x_data	../machine-learning/PyTorchZeroToAll/01_basics.py	/^x_data = [1.0, 2.0, 3.0]$/;"	kind:variable	line:4
 x_data	../machine-learning/PyTorchZeroToAll/02_manual_gradient.py	/^x_data = [1.0, 2.0, 3.0]$/;"	kind:variable	line:1
-x_data	../machine-learning/PyTorchZeroToAll/03_auto_gradient.py	/^x_data = [1.0, 2.0, 3.0]$/;"	kind:variable	line:4
+x_data	../machine-learning/PyTorchZeroToAll/03_auto_gradient.py	/^x_data = [1.0, 2.0, 3.0]$/;"	kind:variable	line:5
 x_data	../machine-learning/PyTorchZeroToAll/05_linear_regression.py	/^x_data = Variable(torch.Tensor([[1.0], [2.0], [3.0]]))$/;"	kind:variable	line:5
 x_data	../machine-learning/PyTorchZeroToAll/06_logistic_regression.py	/^x_data = Variable(torch.Tensor([[1.0], [2.0], [3.0], [4.0]]))$/;"	kind:variable	line:6
 x_data	../machine-learning/PyTorchZeroToAll/07_diabets_logistic.py	/^x_data = Variable(torch.from_numpy(xy[:, 0:-1]))$/;"	kind:variable	line:7
@@ -1024,7 +1028,7 @@ xy	../machine-learning/PyTorchZeroToAll/07_diabets_logistic.py	/^xy = np.loadtxt
 y	../fluentPython/code/card.py	/^    y = 'youku'$/;"	kind:variable	line:9
 y_data	../machine-learning/PyTorchZeroToAll/01_basics.py	/^y_data = [2.0, 4.0, 6.0]$/;"	kind:variable	line:5
 y_data	../machine-learning/PyTorchZeroToAll/02_manual_gradient.py	/^y_data = [2.0, 4.0, 6.0]$/;"	kind:variable	line:2
-y_data	../machine-learning/PyTorchZeroToAll/03_auto_gradient.py	/^y_data = [2.0, 4.0, 6.0]$/;"	kind:variable	line:5
+y_data	../machine-learning/PyTorchZeroToAll/03_auto_gradient.py	/^y_data = [2.0, 4.0, 6.0]$/;"	kind:variable	line:6
 y_data	../machine-learning/PyTorchZeroToAll/05_linear_regression.py	/^y_data = Variable(torch.Tensor([[2.0], [4.0], [6.0]]))$/;"	kind:variable	line:6
 y_data	../machine-learning/PyTorchZeroToAll/06_logistic_regression.py	/^y_data = Variable(torch.Tensor([[0.], [0.], [1.], [1.]]))$/;"	kind:variable	line:7
 y_data	../machine-learning/PyTorchZeroToAll/07_diabets_logistic.py	/^y_data = Variable(torch.from_numpy(xy[:, [-1]]))$/;"	kind:variable	line:8

@@ -1,0 +1,14 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+bow.py	../01-intro/bow.py	1;"	kind:file	line:1
+defaultdict	../01-intro/bow.py	/^from collections import defaultdict$/;"	kind:namespace	line:1
+dy	../01-intro/bow.py	/^import dynet as dy $/;"	kind:namespace	line:4
+np	../01-intro/bow.py	/^import numpy as np$/;"	kind:namespace	line:5
+random	../01-intro/bow.py	/^import random$/;"	kind:namespace	line:3
+t2i	../01-intro/bow.py	/^t2i = defaultdict(lambda: len(t2i))$/;"	kind:variable	line:8
+time	../01-intro/bow.py	/^import time$/;"	kind:namespace	line:2
+w2i	../01-intro/bow.py	/^w2i =  defaultdict(lambda: len(w2i))$/;"	kind:variable	line:7
