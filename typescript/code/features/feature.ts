@@ -581,3 +581,448 @@ class HandlerFactory {
   }
 }
 
+
+
+
+const shortAddNumber = (a: number, b:number) => a + b
+const mediumAddNumbers = (a: number, b: number) => {
+  return a + b
+}
+const longAddNumbers = function(a: number, b: number) { 
+  return a + b
+}
+
+
+const makeName = (f: string, l: string) => ({first: f, last: l})
+// // 智能this
+// const scopeLosingExample = {
+//   text: 'Property from lexical scope',
+//   run: function() {
+//     setTimeout(function() {
+//       console.log(this.text)
+//     }, 1000)
+//   }
+// }
+
+// scopeLosingExample.run()
+
+const scopePreservingExample = {
+  text: 'Property from text scope',
+  run: function() {
+    setTimeout(() => {
+      console.log(this.text);
+    }, 10000)
+  }
+}
+
+
+// 柯里化
+
+const multiply = (a: number) => (b: number) => a * b
+
+const numA = multiply(5)(6)
+
+interface Point {
+  x: number
+  y: number
+}
+
+interface Passenger {
+  name: string
+}
+// did not understand yet
+interface Vehicle {
+  // constructor
+  new(): Vehicle
+  // properties
+  currLoc: Point
+}
+
+class VehicleClass  {
+  public currLoc: Point
+  constructor() {
+
+  }
+}
+
+
+// class
+
+class Song {
+  constructor(private artist: string, private title: string) {
+
+  }
+  play() {
+    console.log('Playing ' + this.title + ' by ' + this.artist);
+  }
+}
+
+class Jukebox {
+  constructor(private songs: Song[]) {
+
+  }
+  play() {
+    const song = this.getRandomSong()
+    song.play()
+  }
+  private getRandomSong() {
+    const songCount = this.songs.length
+    const songIndex = Math.floor(Math.random() * songCount)
+    return this.songs[songIndex]
+  }
+}
+
+const songs = [
+  new Song('Bushbaby', 'Megaphone'),
+  new Song('Delays', 'One More Lie In'),
+  new Song('Goober Gun', 'Stereo'),
+  new Song('Sohnee', 'Shatter'),
+  new Song('Get Amped', 'Celebrity')
+];
+const jukebox = new Jukebox(songs);
+jukebox.play();
+
+
+
+// 访问控制
+
+class Playlist {
+  private songs: Song[] = []
+  static readonly maxSongCount = 30
+  constructor(public name: string) {
+
+  }
+
+  addSong(song: Song) {
+    if (this.songs.length >= Playlist.maxSongCount) {
+      throw new Error('Playlist is full')
+    }
+    this.songs.push(song)
+  }
+
+}
+
+// Creating a new instance
+const playlist = new Playlist('My Playlist');
+// Accessing a public instance property
+const name1 = playlist.name;
+// Calling a public instance method
+playlist.addSong(new Song('Therapy?', 'Crooked Timber'));
+// Accessing a public static property
+const maxSongs = Playlist.maxSongCount;
+// Error: Cannot assign to a readonly property
+// Playlist.maxSongCount = 20;
+
+
+interface StockItem {
+  description: string
+  asin: string
+}
+
+class WareHouseLocation {
+  private _stockItem: StockItem
+  constructor(public aisle: number, public slot: string) {
+
+  }
+  get stockItem() {
+    return this._stockItem
+  }
+  set stockItem(item: StockItem) {
+    this._stockItem = item
+  }
+}
+
+
+interface Audio {
+  play(): any
+}
+
+class SongA implements Audio {
+  constructor(private artist: string, private title: string) {
+
+  }
+  play(): void {
+    console.log('Play ' + this.title + ' by ' + this.artist);
+  }
+  static Compare(a: SongA, b: SongA) {
+    if (a.title === b.title) {
+      return 0
+    } 
+    return a.title > b.title ? 1: -1
+  }
+
+}
+
+class Playlist1 {
+  constructor(public songs: SongA[]) {
+
+  }
+  play() {
+    const song = this.songs.pop() || <Audio>{}
+    song.play()
+  }
+
+  sort() {
+    this.songs.sort(SongA.Compare)
+  }
+}
+
+class RepeatingPlaylist extends Playlist1 {
+  private songIndex = 0
+  constructor(songs: SongA[]) {
+    super(songs)
+  } 
+  play() {
+    this.songs[this.songIndex].play()
+    this.songIndex++
+    if (this.songIndex >= this.songs.length) {
+      this.songIndex = 0
+    }
+  }
+  get len() {
+    return this.songs.length
+  }
+}
+
+
+const repeate = new RepeatingPlaylist([
+  new SongA('lili', '昨天'),
+  new SongA('lili1', '进天'),
+  new SongA('lili2', '名天'),
+  new SongA('lili3', '后天'),
+])
+
+
+abstract class Logger {
+  abstract notify(message: string): void
+  protected getMessage(message: string): string {
+    return `Information: ${new Date().toUTCString()} ${message}`
+  }
+}
+
+class ConsoleLogger extends Logger {
+  notify(message: string) {
+    console.log(this.getMessage(message))
+  }
+}
+
+class InvasiveLogger extends Logger {
+  notify(message: string) {
+    alert(this.getMessage(message));
+  }
+}
+
+let logger: Logger
+
+logger = new Logger()
+
+logger = new InvasiveLogger()
+
+logger.notify('Hello, world')
+
+
+class ClickCounter {
+  private count = 0
+
+  registerClick() {
+    this.count ++
+    console.log(this.count);
+  }
+}
+
+
+const clickCounter = new ClickCounter()
+
+// document.getElementById('target')
+//   .onclick = clickCounter.registerClick
+
+class ClickCounter1 {
+  private count = 0
+
+  registerClick = () => {
+    this.count ++
+    console.log(this.count);
+  }
+}
+
+
+
+// document.getElementById('target')
+//   .onclick = clickCounter.registerClick.bind(clickCounter)
+
+
+// document.getElementById('taget').onclick = function() {
+//   clickCounter.registerClick()
+// }
+
+
+// 事件捕获
+
+class ClickCounter2 {
+  private count = 0
+
+  registerClick(id: string) {
+    this.count ++
+    console.log(this.count);
+  }
+}
+
+const x222 = new ClickCounter2()
+
+// document.getElementById('sfds').onclick = (e) => {
+//   const target = <Element>e.target || e.srcElement
+//   x222.registerClick(target.id)
+// }
+
+
+class Display{
+  name: string = ''
+}
+
+class Television extends Display {
+
+}
+class HiFi {
+
+}
+const  display = new Display()
+const television = new Television()
+const hiFi = new HiFi()
+
+let isDisplay
+
+isDisplay = display instanceof Display
+isDisplay = television instanceof Display
+
+isDisplay = hiFi instanceof Display
+
+
+let hasName
+hasName = 'name' in display
+
+hasName = 'name' in television
+
+hasName = 'name' in hiFi
+
+
+class Display1 {
+  name: string; // 未初始化
+}
+const display1 = new Display1();
+// false
+const hasName1 = 'name' in display;
+
+
+const tv1 = new Television()
+const radio = new HiFi()
+
+const typeType = tv1.constructor.name
+
+
+// 泛型
+
+function reverse<T>(list: T[]): T[] {
+  const reversedList: T[] = []
+  for (let i=(list.length-1); i>=0; i--) {
+    reversedList.push(list[i])
+  }
+  return reversedList
+}
+
+const letters = ['a', 'b', 'c', 'd']
+
+const reversedLetters = reverse<string>(letters)
+reversedLetters
+
+const numbers1 = [1, 2, 3, 4]
+const reversedNumbers = reverse<number>(numbers1)
+reversedNumbers
+
+
+
+class CustomerId {
+  constructor(private customIdValue: number) {
+
+  }
+  get Value (){
+    return this.customIdValue
+  }
+}
+
+class Customer {
+  constructor(public id: CustomerId, public name: string) {
+
+  }
+}
+
+interface Repository<T, TId> {
+  getById(id: TId): T
+  persist(model: T): TId
+}
+
+class CustomerRepository implements Repository<Customer, CustomerId> {
+  constructor(private customers: Customer[]) {
+
+  }
+  getById(id: CustomerId) {
+    return this.customers[id.Value]
+  }
+
+  persist(customer: Customer) {
+    this.customers[customer.id.Value] = customer
+    return customer.id
+  }
+}
+
+
+class DomainId<T> {
+  constructor(private id: T) {
+
+  }
+  
+  get value (): T {
+    return this.id
+  }
+}
+
+class OrderId extends DomainId<number> {
+  constructor(orderValue: number) {
+    super(orderValue)
+  }
+}
+
+class AccountId extends DomainId<string> {
+  constructor(accountValue: string) {
+    super(accountValue)
+  }
+}
+
+function onlyAcceptOrderId(orderId: OrderId) {
+
+}
+
+function onlyAcceptAccountId(accountId: AccountId) {
+
+}
+
+function acceptAnyId(id: DomainId<any>) {
+
+}
+
+const accountId = new AccountId('new id')
+const numberId = new OrderId(1231)
+
+onlyAcceptAccountId(accountId)
+acceptAnyId(accountId)
+onlyAcceptOrderId(numberId)
+
+
+interface HasName {
+  name: string
+}
+
+class Personalization {
+  static greet<T extends HasName>(obj: T) {
+    return 'Hello ' + obj.name
+  }
+}
