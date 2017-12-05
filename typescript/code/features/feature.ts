@@ -814,7 +814,7 @@ class InvasiveLogger extends Logger {
 
 let logger: Logger
 
-logger = new Logger()
+// logger = new Logger()
 
 logger = new InvasiveLogger()
 
