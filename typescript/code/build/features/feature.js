@@ -492,7 +492,7 @@ class InvasiveLogger extends Logger {
     }
 }
 let logger;
-logger = new Logger();
+// logger = new Logger()
 logger = new InvasiveLogger();
 logger.notify('Hello, world');
 class ClickCounter {

@@ -71,4 +71,37 @@ class Calcu {
 __decorate([
     logattr
 ], Calcu.prototype, "num", void 0);
+class Animal {
+}
+class Cat extends Animal {
+    constructor() {
+        super();
+    }
+    meow() {
+        return `${this.name} say Meow!`;
+    }
+}
+// const meow = (() => `${this.name} say Meow`).bind(Cat.prototype)
+// Object.defineProperty(Cat.prototype, 'meow', {
+//   value: meow,
+//   enumerable: false,
+//   configurable: true,
+//   writable: true
+// })
+function readonly(target, key, descriptor) {
+    descriptor.writable = false;
+    return descriptor;
+}
+// let descriptor = {
+//   value: meow,
+//   enumerable: false,
+//   configurable: true,
+//   writable: true
+// }
+// descriptor = readonly(Cat.prototype, 'meow', descriptor) || descriptor
+// Object.defineProperty(Cat.prototype, 'meow', descriptor)
+function hello(name) {
+    return 'hello, world' + name;
+}
+hello('hello');
 //# sourceMappingURL=decorator.js.map

@@ -9,4 +9,3 @@ import Ferry  = require('./exObj')
 
 const fey = new Ferry('SF', '12', 21)
 
-

@@ -99,6 +99,8 @@ Gradient_Descent	../NLP-python/NLPython/ch8/Own_Logistic_Regression/logistic.py	
 HIDDEN_SIZE	../machine-learning/PyTorchZeroToAll/12_5_rnn_classify.py	/^HIDDEN_SIZE = 100$/;"	kind:variable	line:13
 HIDDEN_SIZE	../machine-learning/PyTorchZeroToAll/13_1_seq2seq.py	/^HIDDEN_SIZE = 100$/;"	kind:variable	line:9
 HIDDEN_SIZE	../machine-learning/PyTorchZeroToAll/13_2_seq2seq_att.py	/^HIDDEN_SIZE = N_CHARS$/;"	kind:variable	line:19
+HTTPBasicAuth	../图解HTTP/code/keepAlive-connection.py	/^from requests.auth import HTTPBasicAuth$/;"	kind:namespace	line:10
+HTTPBasicAuth	../图解HTTP/code/new-connection.py	/^from requests.auth import HTTPBasicAuth$/;"	kind:namespace	line:10
 Hypothesis	../NLP-python/NLPython/ch8/Own_Logistic_Regression/logistic.py	/^def Hypothesis(theta, x):$/;"	kind:function	line:70
 InceptionA	../machine-learning/PyTorchZeroToAll/11_1_toy_inception_mnist.py	/^class InceptionA(nn.Module):$/;"	kind:class	line:34
 LogisticRegression	../NLP-python/NLPython/ch8/Own_Logistic_Regression/logistic.py	/^from sklearn.linear_model import LogisticRegression$/;"	kind:namespace	line:16
@@ -461,6 +463,8 @@ get_countries	../machine-learning/PyTorchZeroToAll/name_dataset.py	/^    def get
 get_country	../machine-learning/PyTorchZeroToAll/name_dataset.py	/^    def get_country(self, id):$/;"	kind:member	line:37
 get_country_id	../machine-learning/PyTorchZeroToAll/name_dataset.py	/^    def get_country_id(self, country):$/;"	kind:member	line:40
 get_tokens	../NLP-python/NLPython/ch5/TFIDFdemo/tfidf_scikitlearn.py	/^def get_tokens():$/;"	kind:function	line:14
+get_venmo_data	../图解HTTP/code/keepAlive-connection.py	/^def get_venmo_data(limit):$/;"	kind:function	line:15
+get_venmo_data	../图解HTTP/code/new-connection.py	/^def get_venmo_data(limit):$/;"	kind:function	line:15
 glove	../NLP-python/NLPython/ch6/gloveexample.py	/^glove = Glove(no_components=100, learning_rate=0.05)$/;"	kind:variable	line:14
 gloveexample.py	../NLP-python/NLPython/ch6/gloveexample.py	1;"	kind:file	line:1
 gradient	../machine-learning/PyTorchZeroToAll/02_manual_gradient.py	/^def gradient(x, y):  # d_loss\/d_w$/;"	kind:function	line:20
@@ -512,8 +516,11 @@ itertools	../NLP-python/NLPython/ch6/gloveexample.py	/^import itertools$/;"	kind
 itertools	../machine-learning/PyTorchZeroToAll/13_3_pack_pad.py	/^import itertools$/;"	kind:namespace	line:10
 json	../NLP-python/NLPython/ch7/chatbot/customscripts/conversationengine.py	/^import json$/;"	kind:namespace	line:2
 json	../NLP-python/NLPython/ch7/chatbot/flaskengin.py	/^import json$/;"	kind:namespace	line:4
+json	../图解HTTP/code/keepAlive-connection.py	/^import json$/;"	kind:namespace	line:6
+json	../图解HTTP/code/new-connection.py	/^import json$/;"	kind:namespace	line:6
 json_util	../NLP-python/NLPython/ch7/chatbot/customscripts/conversationengine.py	/^from bson import json_util$/;"	kind:namespace	line:4
 jsonify	../NLP-python/NLPython/ch7/chatbot/flaskengin.py	/^from flask import Flask, request, jsonify, Response$/;"	kind:namespace	line:1
+keepAlive-connection.py	../图解HTTP/code/keepAlive-connection.py	1;"	kind:file	line:1
 kingqueenexample.py	../NLP-python/NLPython/ch6/kingqueenexample.py	1;"	kind:file	line:1
 kmeans	../the_math_intelligence/k_means_clustering/kmeans.py	/^def kmeans(k, epsilon=0, distance='euclidian'):$/;"	kind:function	line:36
 kmeans.py	../the_math_intelligence/k_means_clustering/kmeans.py	1;"	kind:file	line:1
@@ -531,6 +538,8 @@ labels	../machine-learning/PyTorchZeroToAll/12_3_hello_rnn_seq.py	/^labels = Var
 labels	../machine-learning/PyTorchZeroToAll/12_4_hello_rnn_emb.py	/^labels = Variable(torch.LongTensor(y_data))$/;"	kind:variable	line:17
 lammatizer	../NLP-python/NLPython/ch4/4_2_rawtext_Stemmers.py	/^def lammatizer():$/;"	kind:function	line:14
 legend	../NLP-python/NLPython/ch8/Own_Logistic_Regression/logistic.py	/^from pylab import scatter, show, legend, xlabel, ylabel$/;"	kind:namespace	line:19
+limit	../图解HTTP/code/keepAlive-connection.py	/^  limit = 1$/;"	kind:variable	line:26
+limit	../图解HTTP/code/new-connection.py	/^  limit = 1$/;"	kind:variable	line:25
 load_dataset	../the_math_intelligence/k_means_clustering/kmeans.py	/^def load_dataset(name):$/;"	kind:function	line:6
 loadtxt	../NLP-python/NLPython/ch8/Own_Logistic_Regression/logistic.py	/^from numpy import loadtxt, where$/;"	kind:namespace	line:18
 loan_ammount_asking	../NLP-python/NLPython/ch7/chatbot/customscripts/conversationengine.py	/^def loan_ammount_asking(loanammount):$/;"	kind:function	line:233
@@ -539,6 +548,8 @@ loan_assistant_welcome_msg	../NLP-python/NLPython/ch7/chatbot/customscripts/conv
 localtextvalue	../NLP-python/NLPython/ch4/4_1_processrawtext.py	/^def localtextvalue():$/;"	kind:function	line:12
 localveriabledata	../NLP-python/NLPython/ch4/4_1_processrawtext.py	/^    localveriabledata = localtextvalue()$/;"	kind:variable	line:39
 logging	../NLP-python/NLPython/ch6/doc2vecexample.py	/^import logging$/;"	kind:namespace	line:2
+logging	../图解HTTP/code/keepAlive-connection.py	/^import logging$/;"	kind:namespace	line:8
+logging	../图解HTTP/code/new-connection.py	/^import logging$/;"	kind:namespace	line:8
 logistic.py	../NLP-python/NLPython/ch8/Own_Logistic_Regression/logistic.py	1;"	kind:file	line:1
 loss	../machine-learning/PyTorchZeroToAll/01_basics.py	/^def loss(x, y):$/;"	kind:function	line:14
 loss	../machine-learning/PyTorchZeroToAll/02_manual_gradient.py	/^def loss(x, y):$/;"	kind:function	line:14
@@ -602,6 +613,7 @@ name_dataset.py	../machine-learning/PyTorchZeroToAll/name_dataset.py	1;"	kind:fi
 neg	../NLP-python/NLPython/ch8/Own_Logistic_Regression/logistic.py	/^neg = where(Y == 0)$/;"	kind:variable	line:55
 negative_size	../NLP-python/NLPython/ch6/doc2vecexample.py	/^negative_size = 5$/;"	kind:variable	line:11
 neural_network	../NLP-python/NLPython/ch9/make_neural_net/singlelayerANN.py	/^    neural_network = NeuralNetwork()$/;"	kind:variable	line:58
+new-connection.py	../图解HTTP/code/new-connection.py	1;"	kind:file	line:1
 ngram_vectorizer	../NLP-python/NLPython/ch5/bagofwordsdemo/BOWdemo.py	/^ngram_vectorizer = CountVectorizer(analyzer='char_wb', ngram_range=(2, 2), min_df=1)$/;"	kind:variable	line:4
 ngrams	../NLP-python/NLPython/ch5/n_gram/nltkngrmdemo.py	/^from nltk import ngrams$/;"	kind:namespace	line:1
 ngramsres	../NLP-python/NLPython/ch5/n_gram/nltkngrmdemo.py	/^ngramsres = ngrams(sentence.split(), n)$/;"	kind:variable	line:4
@@ -696,6 +708,8 @@ os	../NLP-python/NLPython/ch5/TFIDFdemo/tfidf_scikitlearn.py	/^import os$/;"	kin
 os	../NLP-python/NLPython/ch7/chatbot/flaskengin.py	/^import os, uuid$/;"	kind:namespace	line:5
 os	../NLP-python/NLPython/ch8/sentimentanalysis/sentimentanalysis_NB.py	/^import os$/;"	kind:namespace	line:5
 os	../NLP-python/NLPython/ch8/sentimentanalysis/sentimentanalysis_SVM.py	/^import os$/;"	kind:namespace	line:5
+os	../图解HTTP/code/keepAlive-connection.py	/^import os$/;"	kind:namespace	line:5
+os	../图解HTTP/code/new-connection.py	/^import os$/;"	kind:namespace	line:5
 output	../NLP-python/NLPython/ch6/doc2vecexample.py	/^output = open(output_file, "w")$/;"	kind:variable	line:57
 output_file	../NLP-python/NLPython/ch6/doc2vecexample.py	/^output_file="\/home\/jalaj\/PycharmProjects\/NLPython\/NLPython\/ch6\/doc2vecdata\/test_vectors.txt"$/;"	kind:variable	line:45
 outputs	../machine-learning/PyTorchZeroToAll/12_3_hello_rnn_seq.py	/^    outputs = rnn(inputs)$/;"	kind:variable	line:75
@@ -764,6 +778,8 @@ request_user_id	../NLP-python/NLPython/ch7/chatbot/flaskengin.py	/^request_user_
 requests	../NLP-python/NLPython/ch2/2_2_Basic_webscraping_byusing_beautifulsuop.py	/^import requests$/;"	kind:namespace	line:3
 requests	../NLP-python/NLPython/ch7/7_1_simplerule.py	/^import requests$/;"	kind:namespace	line:2
 requests	../NLP-python/NLPython/ch7/chatbot/customscripts/conversationengine.py	/^import requests, ast$/;"	kind:namespace	line:6
+requests	../图解HTTP/code/keepAlive-connection.py	/^import requests$/;"	kind:namespace	line:9
+requests	../图解HTTP/code/new-connection.py	/^import requests$/;"	kind:namespace	line:9
 response	../NLP-python/NLPython/ch5/TFIDFdemo/tfidf_scikitlearn.py	/^response = tfidf.transform([str])$/;"	kind:variable	line:75
 result_str	../machine-learning/PyTorchZeroToAll/12_3_hello_rnn_seq.py	/^    result_str = [idx2char[c] for c in idx.squeeze()]$/;"	kind:variable	line:82
 result_str	../machine-learning/PyTorchZeroToAll/12_4_hello_rnn_emb.py	/^    result_str = [idx2char[c] for c in idx.squeeze()]$/;"	kind:variable	line:70
@@ -832,6 +848,8 @@ start	../machine-learning/PyTorchZeroToAll/12_5_rnn_classify.py	/^    start = ti
 start_alpha	../NLP-python/NLPython/ch6/doc2vecexample.py	/^start_alpha=0.01$/;"	kind:variable	line:48
 start_converation_action	../NLP-python/NLPython/ch7/chatbot/customscripts/conversationengine.py	/^def start_converation_action(humanmessage):$/;"	kind:function	line:30
 start_coversation	../NLP-python/NLPython/ch7/chatbot/flaskengin.py	/^def start_coversation():$/;"	kind:function	line:105
+start_time	../图解HTTP/code/keepAlive-connection.py	/^start_time = time.time()$/;"	kind:variable	line:13
+start_time	../图解HTTP/code/new-connection.py	/^start_time = time.time()$/;"	kind:variable	line:13
 start_urls	../NLP-python/NLPython/web_scraping_test/web_scraping_test/spiders/WebScrapingTestspider.py	/^    start_urls = [$/;"	kind:variable	line:7
 stem_tokens	../NLP-python/NLPython/ch5/TFIDFdemo/tfidf_scikitlearn.py	/^def stem_tokens(tokens, stemmer):$/;"	kind:function	line:32
 stem_tokens	../NLP-python/NLPython/ch5/TFIDFdemo/tfidf_scikitlearn.py	/^def stem_tokens(tokens, stemmer):$/;"	kind:function	line:48
@@ -923,6 +941,8 @@ time	../NLP-python/NLPython/ch8/sentimentanalysis/sentimentanalysis_NB.py	/^impo
 time	../NLP-python/NLPython/ch8/sentimentanalysis/sentimentanalysis_SVM.py	/^import time$/;"	kind:namespace	line:6
 time	../algorithm/min_id.py	/^import time$/;"	kind:namespace	line:1
 time	../machine-learning/PyTorchZeroToAll/12_5_rnn_classify.py	/^import time$/;"	kind:namespace	line:2
+time	../图解HTTP/code/keepAlive-connection.py	/^import time$/;"	kind:namespace	line:7
+time	../图解HTTP/code/new-connection.py	/^import time$/;"	kind:namespace	line:7
 time_since	../machine-learning/PyTorchZeroToAll/12_5_rnn_classify.py	/^def time_since(since):$/;"	kind:function	line:32
 timezone	../NLP-python/NLPython/ch7/chatbot/flaskengin.py	/^from pytz import timezone$/;"	kind:namespace	line:7
 title	../NLP-python/NLPython/web_scraping_test/web_scraping_test/items.py	/^    title = scrapy.Field()$/;"	kind:variable	line:12

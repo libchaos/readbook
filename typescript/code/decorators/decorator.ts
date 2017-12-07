@@ -108,3 +108,8 @@ function readonly(target: any , key: any, descriptor: any) {
 // descriptor = readonly(Cat.prototype, 'meow', descriptor) || descriptor
 
 // Object.defineProperty(Cat.prototype, 'meow', descriptor)
+function hello (name: string): string {
+  return 'hello, world' + name
+}
+
+hello('hello')
